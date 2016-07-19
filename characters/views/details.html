@@ -1,0 +1,478 @@
+<div class="backdrop" ui-sref="^"></div>
+
+<div class="inner-container" go-back>
+
+    <div class="custom-modal">
+        <div class="modal-dialog">
+            <div class="modal-content animated rollIn">
+
+                <div class="modal-header">
+                    <div class="fa fa-arrow-left btn btn-default back-button" ng-if="withButton" ng-click="onBackClick()"></div>    
+                    {{unit.name}}
+                </div>
+
+                <div class="modal-body">
+
+                    <div ng-if="!unit.incomplete" class="slot huge" decorate-slot big="true" uid="unit.number + 1"></div>
+
+                    <div ng-if="unit.incomplete" class="alert alert-danger">This Yokai's data is still partially missing and will be added soon!</div>
+
+                    <h3 class="page-header">
+                        Details
+                        <i ng-if="compare" ng-click="clearComparison()" class="fa fa-times pull-right" id="compare-clear" title="clear"></i>
+                        <input compare type="text" id="compare" class="pull-right" placeholder="Compare with..."></input>
+                        <label class="pull-right">
+                            <input type="checkbox" ng-model="characterLog[id]" ng-change="checkLog()"></input>
+                            Check to add to Yokai Collection
+                        </label>
+                    </h3>
+
+                    <div class="panel panel-default">
+                        <table class="table table-striped">
+                            <tbody>
+                                <tr>
+                                    <th>Class</th>
+                                    <th>Rank</th>
+                                    <th>Element</th>
+                                </tr>
+                                <tr>
+                                    <td>{{unit.class}}</td>
+                                    <td>{{unit.type}}</td>
+                                    <td>{{unit.stars}}</td>
+                                </tr>
+                                <tr>
+                                    <th>Favorite Food YW1</th>
+                                    <th>Favorite Food YW2</th>
+									<th colspan="{{hybrid ? 2 : 1}}">Loafing Phrase</th>
+                                    
+                                </tr>
+                                <tr>
+									<td>{{unit.combo}}</td>
+									<td>{{unit.slots}}</td>
+<!-- Not needed
+                                    <td ng-if="!compare">{{unit.combo}}</td>
+                                    <td ng-if="compare" comparison="negative">{{unit.combo - compare.combo}}</td>
+                                    <td ng-if="!compare">{{unit.slots}}</td>
+                                    <td ng-if="compare" comparison="positive">{{unit.slots - compare.slots}}</td>
+-->
+                                    <td>{{unit.maxLevel}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <h3 class="page-header">Stats*</h3>
+
+                    <div class="panel panel-default">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Level</th>
+                                    <th>HP</th>
+                                    <th>Strength</th>
+                                    <th>Spirit</th>
+									<th>Defense</th>
+									<th>Speed</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td ng-if="!compare">{{unit.maxEXP | number}}</td>
+                                    <td ng-if="compare" comparison="positive">{{unit.maxEXP - compare.maxEXP | number}}</td>
+                                    <td ng-if="!compare">{{unit.minHP | number}}</td>
+                                    <td ng-if="compare" comparison="positive">{{unit.minHP - compare.minHP | number}}</td>
+                                    <td ng-if="!compare">{{unit.minStrength | number}}</td>
+                                    <td ng-if="compare" comparison="positive">{{unit.minStrength - compare.minStrength | number}}</td>
+									<td ng-if="!compare">{{unit.minRCV | number}}</td>
+                                    <td ng-if="compare" comparison="positive">{{unit.minRCV - compare.minRCV | number}}</td>
+									<td ng-if="!compare">{{unit.minSpeed | number}}</td>
+                                    <td ng-if="compare" comparison="positive">{{unit.minSpeed - compare.minSpeed | number}}</td>
+                                </tr>
+                                <tr>
+                                    <td>99</td>
+                                    <td ng-if="!compare">{{unit.maxHP | number}}</td>
+                                    <td ng-if="compare" comparison="positive">{{unit.maxHP - compare.maxHP | number}}</td>
+                                    <td ng-if="!compare">{{unit.maxStrength | number}}</td>
+                                    <td ng-if="compare" comparison="positive">{{unit.maxStrength - compare.maxStrength | number}}</td>
+                                    <td ng-if="!compare">{{unit.maxRCV | number}}</td>
+                                    <td ng-if="compare" comparison="positive">{{unit.maxRCV - compare.maxRCV | number}}</td>
+									<td ng-if="!compare">{{unit.maxDefense | number}}</td>
+                                    <td ng-if="compare" comparison="positive">{{unit.maxDefense - compare.maxDefense | number}}</td>
+									<td ng-if="!compare">{{unit.maxSpeed | number}}</td>
+                                    <td ng-if="compare" comparison="positive">{{unit.maxSpeed - compare.maxSpeed | number}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+					<div>* Stat calculation for this game is rather complicated, so these stats represent only base stats with zero EV's or IV's.
+					We'll eventually come up with a more elegant solution, but, for now, refer to our 
+					<a href="http://www.yokaigamer.com/p/stat-explanation.html" target="_blank">Stat Explanation page</a> for further details.</div>
+
+                    <!-- Attacks (non-comparison) -->
+
+                    <h3 class="page-header">Attacks</h3>
+
+                    <div class="panel panel-default">
+                        <table class="table table-striped-column abilities">
+                            <tbody>
+                                <tr>
+                                    <td>Normal Attack</td>
+                                    <td>
+                                         <strong class="specialName">{{details.normalattack}}</strong>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Power</td>
+                                    <td>
+                                        <div ng-bind-html="details.normalpower | decorate"></div>
+                                    </td>
+                                </tr>
+                                <tr ng-if="details.cooldown">
+                                    <td>Range</td>
+                                    <td>
+                                      <div ng-bind-html="details.normalrange | decorate"></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+					<div class="panel panel-default">
+                        <table class="table table-striped-column abilities">
+                            <tbody>
+                                <tr>
+                                    <td>Technique</td>
+                                    <td>
+                                        <strong class="specialName">{{details.special}}</strong>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Power</td>
+                                    <td>
+                                         <div ng-bind-html="details.specialpower | decorate"></div>
+                                    </td>
+                                </tr>
+                                <tr ng-if="details.cooldown">
+                                    <td>Attribute</td>
+                                    <td>
+                                        <div ng-bind-html="details.specialattribute | decorate"></div>
+                                    </td>
+                                </tr>
+								 <tr>
+                                    <td>Range</td>
+                                    <td>
+                                        <div ng-bind-html="details.specialrange | decorate"></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+					
+					<div class="panel panel-default">
+                        <table class="table table-striped-column abilities">
+                            <tbody>
+                                <tr>
+                                    <td>Soultimate</td>
+                                    <td>
+                                        <strong class="soultimate" ng-if="details.soultimate">{{details.soultimate}}</strong>
+                                        <div ng-bind-html="details.souldescription | decorate"></div>
+                                    </td>
+                                </tr>
+                                <tr ng-if="details.cooldown">
+                                    <td>Power</td>
+                                    <td>
+                                        <div ng-bind-html="details.soulpower | decorate"></div>
+                                        
+										<!-- THIS SECTION WILL BE USEFUL WHEN POWERS ARE CHANGED IN YW2 -->
+										<!-- same special -->
+                                        <!--<div ng-if="!isSpecialArray" ng-bind-html="details.special | decorate"></div>
+                                        <!-- different specials -->
+                                        <!--<div ng-if="isSpecialArray">
+                                            <span class="badge badge-japan">Japan</span>
+                                            <div ng-bind-html="details.special[0] | decorate"></div>
+                                            <span class="badge badge-global">Global</span>
+                                            <div ng-bind-html="details.special[1] | decorate"></div>
+                                        </div>-->
+									</td>
+                                </tr>
+								<tr>
+                                    <td>Attribute</td>
+                                    <td>
+                                        <div ng-bind-html="details.soulattribute | decorate"></div>
+                                    </td>
+                                </tr>
+								<tr>
+                                    <td>Range</td>
+                                    <td>
+                                        <div ng-bind-html="details.soulrange | decorate"></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+					
+					
+					<!-- Inspirit and Skill (non-comparison) -->
+
+                    <h3 class="page-header">Inspirit and Skill</h3>
+
+                    <div class="panel panel-default">
+                        <table class="table table-striped-column abilities">
+                            <tbody>
+                                <tr>
+                                    <td>Inspirit</td>
+                                    <td>
+                                        <strong class="inspirit" ng-if="details.inspirit">{{details.inspirit}}</strong>
+                                        <div ng-bind-html="details.inspiritdescription | decorate"></div>
+                                    </td>
+                                </tr>
+                                <tr ng-if="details.cooldown">
+                                    <td>Range</td>
+                                    <td>
+                                        <div ng-bind-html="details.inspiritrange | decorate"></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+					
+					<div class="panel panel-default">
+                        <table class="table table-striped-column abilities">
+                            <tbody>
+                                    <td>Skill</td>
+                                    <td>
+                                        <strong class="skill" ng-if="details.skill">{{details.skill}}</strong>
+                                        <div ng-bind-html="details.skilldescription | decorate"></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Abilities (compared unit) -->
+
+                    <h3 class="page-header" ng-if="compare">Abilities (compared unit)</h3>
+
+                    <div class="panel panel-default" ng-if="compare">
+                        <table class="table table-striped-column abilities">
+                            <tbody>
+                                <tr>
+                                    <td>Captain Ability</td>
+                                    <td>
+                                        <div ng-bind-html="compareDetails.captain | decorate"></div>
+                                        <span class="notes" ng-if="compareDetails.captainNotes" ng-bind-html="compareDetails.captainNotes | decorate"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Special</td>
+                                    <td>
+                                        <div ng-bind-html="compareDetails.special | decorate"></div>
+                                        <span class="notes" ng-if="compareDetails.specialNotes" ng-bind-html="compareDetails.specialNotes | decorate"></span>
+                                    </td>
+                                </tr>
+                                <tr ng-if="compareDetails.cooldown">
+                                    <td>Cooldown</td>
+                                    <td>
+                                        {{compareDetails.cooldown.length ? compareDetails.cooldown[0] : compareDetails.cooldown}} turns
+                                        {{compareDetails.cooldown.length ? ' (maxed: ' + compareDetails.cooldown[1] + ' turns)' : ''}}
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Evolutions -->
+
+                    <h3 class="page-header" ng-if="details.evolution">Evolutions</h3>
+
+                    <table class="table table-striped table-centered table-bordered table-textless" ng-if="details.evolution && !details.evolution.length && details.evolvers">
+                        <tbody>
+                            <tr>
+                                <td><evolution unit="unit" base="id" evolvers="details.evolvers"
+                                    evolution="details.evolution" size="medium"></evolution></td>
+                                    <td ng-if="details.evolution">{{details.method}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-striped table-centered table-bordered table-textless" ng-if="details.evolution && !details.evolution.length && !details.evolvers">
+                        <tbody>
+                            <tr>
+                                <td><evolution unit="unit" base="id" 
+                                    evolution="details.evolution" size="medium"></evolution></td>
+                                    <td ng-if="details.evolution">{{details.method}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-striped table-centered table-bordered table-textless" ng-if="details.evolution && details.evolution.length">
+                        <tbody>
+                            <tr ng-repeat="evolverSet in details.evolvers">
+                                <td>
+                                    <evolution unit="unit" base = "id" evolvers="evolverSet" evolution="details.evolution[$index]"
+                                        size="medium"></evolution> 
+                        <td ng-if="details.evolution">{{details.method}}</td>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Evolves from -->
+
+                    <h3 class="page-header" ng-if="evolvesFrom.length > 0">Evolves From</h3>
+
+                    <table class="table table-striped table-centered table-bordered table-textless" ng-if="evolvesFrom.length > 0">
+                        <tbody>
+                            <tr ng-repeat="tree in evolvesFrom">
+                                <td><div ng-repeat="id in tree">
+                                        <evolution unit="unit" base="id" evolvers="getEvos(id,tree[$index+1] || unit.number+1)"
+                                            evolution="tree[$index+1] || unit.number + 1" size="medium"></evolution></div></td>
+                                            <td ng-if="evolvesFrom.length > 0">{{details.method}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Used by -->
+
+                    <h3 class="page-header" ng-if="sizeOf(usedBy) > 0">Evolutions Requiring This Unit</h3>
+
+                    <table ng-if="sizeOf(usedBy) > 0" class="table table-striped table-centered table-bordered table-textless">
+                        <tbody>
+                            <tr ng-if="collapsed.used && sizeOf(usedBy) > 3">
+                                <td><button class="btn btn-info collapse-button"
+                                        ng-click="collapsed.used = false">Click to show</button></td>
+                            </tr>
+                            <tr ng-repeat="(base,evolutions) in usedBy" ng-if="!collapsed.used || sizeOf(usedBy) < 4">
+                                <td>
+                                    <div ng-repeat="id in evolutions track by $index">
+                                        <evolution unit="unit" base="base" evolvers="getEvos(base,id,unit.number + 1)"
+                                            evolution="id" size="medium"></evolution>
+                                        <td ng-if="sizeOf(usedBy) > 0">{{details.method}}</td>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                   <!-- Same specials -->
+
+                    <h3 class="page-header" ng-if="sizeOf(sameSpecials) > 0">Units With the Same Technique</h3>
+
+                    <table ng-if="sizeOf(sameSpecials) > 0" class="table table-striped table-centered table-bordered table-textless">
+                        <tbody>
+                            <tr>
+                                <td><unit uid="id" ng-repeat="id in sameSpecials"></unit></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Tandems -->
+<!-- Not needed as of now
+                    <h3 class="page-header" ng-if="tandems.length > 0">Tandems</h3>
+
+                    <table class="table table-striped table-centered table-bordered" ng-if="tandems.length > 0">
+                        <tbody>
+                            <tr ng-repeat="tandem in tandems">
+                                <td>
+                                    <div><strong>{{tandem.name}}</strong></div>
+                                    <a class="slot medium clickable" decorate-slot uid="uid" clickable="true"
+                                        ui-sref="main.view({ id: uid, previous: getPrevious() })"
+                                        ng-repeat="uid in tandem.units track by $index"></a>
+                                    <div>{{tandem.desc}}</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+-->
+                    <!-- Drops -->
+
+                    <h3 class="page-header" ng-if="drops.length > 0">Recruit Locations</h3>
+
+<!--                   <span ng-show="!collapsed.drops" class="drop-warning">
+                        <strong>Note:</strong>
+                        If a drop appears in almost all of the stages of a story-mode island, it is likely to be part of the
+                        island's secret round. Secret rounds have an estimated 5% chance of appearing.
+                    </span>
+-->
+
+                    <table ng-if="collapsed.drops && drops.length > 3" class="table table-striped table-centered table-bordered table-textless">
+                        <tbody>
+                            <tr ng-if="collapsed.drops && drops.length > 3">
+                                <td><button class="btn btn-info collapse-button"
+                                        ng-click="collapsed.drops = false">Click to show</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table ng-if="drops.length > 0" class="table table-striped drop-table">
+                        <thead ng-show="!collapsed.drops || drops.length < 4">
+                            <tr>
+                                <th>Location</th>
+								<th>Specifics</th>
+								
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-if="!collapsed.drops || drops.length < 4" ng-repeat="drop in drops">
+                                <td>
+                                    {{drop.name}}
+                                </td>
+                                <td>{{drop.data.join(', ')}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Manuals -->
+
+                    <h3 class="page-header" ng-if="manuals.length > 0">Manual Locations</h3>
+
+                    <table ng-if="collapsed.manuals && manuals.length > 3" class="table table-striped table-centered table-bordered table-textless">
+                        <tbody>
+                            <tr ng-if="collapsed.manuals && manuals.length > 3">
+                                <td><button class="btn btn-info collapse-button"
+                                        ng-click="collapsed.manuals = false">Click to show</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table ng-if="manuals.length > 0" class="table table-striped drop-table">
+                        <thead ng-show="!collapsed.manuals || manuals.length < 4">
+                            <tr>
+                                <th>Location</th>
+                                <th>Stage/Difficulty</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-if="!collapsed.manuals || manuals.length < 4" ng-repeat="drop in manuals">
+                                <td>
+                                    <div class="slot small" decorate-slot uid="drop.thumb"></div>
+                                    {{drop.name}}
+                                </td>
+                                <td>{{drop.data.join(', ')}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Tags -->
+
+                    <h3 class="page-header">Tags</h3>
+                    
+                    <add-tags></add-tags>
+
+                    <!-- Links -->
+
+                    <br/>
+                    <h3 class="page-header">Links</h3>
+                    
+                    <add-links></add-links>
+
+                    <!-- Data gathering -->
+
+                    <div ng-if="!unit.incomplete && unit.growth.atk === 0" class="alert alert-success"><i class="fa fa-star"></i> Have this unit? Please take a look at <a href="../damage/#/gather">this</a>.</div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
