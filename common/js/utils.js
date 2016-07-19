@@ -54,14 +54,14 @@ utils.getThumbnailUrl = function(n) {
     if (n === null || (window.units && window.units[n-1].incomplete))
         return 'http://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png';
     var id = ('000' + n).slice(-3).replace(/(057[54])/,'0$1'); // missing aokiji image
-    return 'http://yokaiwatch.github.io/common/Images/' + id + '.png';
+    return 'http://pokemongodb.github.io/common/Images/' + id + '.png';
 };
 
 utils.getBigThumbnailUrl = function(n) {
     if (window.units[n-1].incomplete)
         return 'http://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png';
     var id = ('000' + n).slice(-3).replace(/(057[54])/,'0$1'); // missing aokiji image
-    return 'http://yokaiwatch.github.io/common/Images/' + id + '.png';
+    return 'http://pokemongodb.github.io/common/Images/' + id + '.png';
 };
 
 utils.getThumbnailTitle = function(arg) {
