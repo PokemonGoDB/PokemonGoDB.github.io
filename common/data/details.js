@@ -529,7 +529,7 @@ soulrange: "All Enemies",
 skill: "Annoyance",
 skilldescription: "May attack an ally."
 }, 
-27: { // Snartle
+27: { // Sandshrew
 normalattack: "Lightning Slash",
 normalpower: "20-44 x 3",
 normalrange: "Single Enemy",
@@ -546,9 +546,11 @@ souldescription: "Goes nuts with his cutters and slashes all foes.",
 soulattribute: "",
 soulrange: "All Enemies",
 skill: "Sword Hunting",
-skilldescription: "When he defeats an enemy, strength and spirit up!"
+skilldescription: "When he defeats an enemy, strength and spirit up!",
+evolvers: [ ],
+evolution: 28
 }, 
-28: { // Snotsolong
+28: { // Sandslash
 normalattack: "Pesky Poke",
 normalpower: "15-67",
 normalrange: "Single Enemy",
@@ -567,7 +569,7 @@ soulrange: "Single Enemy",
 skill: "Water Play",
 skilldescription: "Increased damage of Water attacks."
 }, 
-29: { // Duchoo
+29: { // Nidoran
 normalattack: "Pesky Poke",
 normalpower: "15-67",
 normalrange: "Single Enemy",
@@ -584,9 +586,11 @@ souldescription: "Slaps an opponent with its snot. May cancel Soultimate Moves."
 soulattribute: "",
 soulrange: "Single Enemy",
 skill: "Snow Play",
-skilldescription: "Increased damage of Ice attacks"
+skilldescription: "Increased damage of Ice attacks",
+evolvers: [ ],
+evolution: 30
 }, 
-30: { // Wazzat
+30: { // Nidorina
 normalattack: "Bite",
 normalpower: "15",
 normalrange: "Single Enemy",
@@ -603,9 +607,11 @@ souldescription: "Undoes good effects on a foe by eating up their memories.",
 soulattribute: "",
 soulrange: "Single Enemy",
 skill: "Forgot to Guard",
-skilldescription: "No Yo-Kai will guard in battle."
+skilldescription: "No Yo-Kai will guard in battle.",
+evolvers: [ ],
+evolution: 31
 }, 
-31: { // Dummkap
+31: { // Nidoqueen
 normalattack: "",
 normalpower: "",
 normalrange: "Single Enemy",
@@ -624,7 +630,7 @@ soulrange: "",
 skill: "",
 skilldescription: ""
 }, 
-32: { // D'wanna
+32: { // Nidoran
 normalattack: "Hit",
 normalpower: "10",
 normalrange: "Single Enemy",
@@ -646,7 +652,7 @@ evolvers: [ ],
 evolution: 33
 
 }, 
-33: { // N'more
+33: { // Nidorino
 normalattack: "Beat",
 normalpower: "40-88",
 normalrange: "Single Enemy",
@@ -663,9 +669,11 @@ souldescription: "Hinders foes with a rolling wave of curses.",
 soulattribute: "",
 soulrange: "All Enemies",
 skill: "Soothing Rhythm",
-skilldescription: "All foes will be prone to Loafing around."
+skilldescription: "All foes will be prone to Loafing around.",
+evolvers: [ ],
+evolution: 34
 }, 
-34: { // Q'wit
+34: { // Nidoking
 normalattack: "Beat",
 normalpower: "40-88",
 normalrange: "Single Enemy",
@@ -684,7 +692,7 @@ soulrange: "Single Enemy",
 skill: "Soothing Rhythm",
 skilldescription: "All foes will be prone to Loafing around."
 }, 
-35: { // Lafalotta
+35: { // Clefairy
 normalattack: "Headsmack",
 normalpower: "15",
 normalrange: "Single Enemy",
@@ -701,9 +709,11 @@ souldescription: "Absorbs HP from all foes and divides it among her allies.",
 soulattribute: "Absorption",
 soulrange: "All Enemies",
 skill: "Hanging In",
-skilldescription: "Won't get bad effects from enemy Inspirits."
+skilldescription: "Won't get bad effects from enemy Inspirits.",
+evolvers: [ ],
+evolution: 36
 }, 
-36: { // Blips
+36: { // Clefable
 normalattack: "Headsmack",
 normalpower: "15",
 normalrange: "Single Enemy",
@@ -722,7 +732,7 @@ soulrange: "All Enemies",
 skill: "",
 skilldescription: ""
 }, 
-37: { // Tattletell
+37: { // Vulpix
 normalattack: "Slap",
 normalpower: "10-45",
 normalrange: "Single Enemy",
@@ -739,9 +749,11 @@ souldescription: "Slaps a foe… with love. May cancel enemy Soultimate Moves.",
 soulattribute: "",
 soulrange: "Single Enemy",
 skill: "Caring",
-skilldescription: "Gradually recovers HP of adjacent Yo-Kai."
+skilldescription: "Gradually recovers HP of adjacent Yo-Kai.",
+evolvers: [ ],
+evolution: 38
 }, 
-38: { // Tattlecast
+38: { // Ninetales
 normalattack: "Beat",
 normalpower: "40-88",
 normalrange: "Single Enemy",
@@ -760,7 +772,7 @@ soulrange: "Single Enemy",
 skill: "Caring",
 skilldescription: "Gradually recovers HP of adjacent Yo-Kai."
 }, 
-39: { // Skranny
+39: { // Jigglypuff
 normalattack: "Slap",
 normalpower: "10-45",
 normalrange: "Single Enemy",
@@ -777,9 +789,11 @@ souldescription: "A bony-handed slap that can cancel Soultimate Moves.",
 soulattribute: "",
 soulrange: "Single Enemy",
 skill: "Caring",
-skilldescription: "Gradually recovers HP of adjacent Yo-Kai."
+skilldescription: "Gradually recovers HP of adjacent Yo-Kai.",
+evolvers: [ ],
+evolution: 40
 }, 
-40: { // Cupistol
+40: { // Wigglytuff
 normalattack: "Shoot",
 normalpower: "10",
 normalrange: "Single Enemy",
@@ -798,7 +812,7 @@ soulrange: "All Allies",
 skill: "Popular",
 skilldescription: "Makes foes more likely to befriend you."
 }, 
-41: { // Casanuva
+41: { // Zubat
 normalattack: "Guns Blazing",
 normalpower: "15 x 3",
 normalrange: "Single Enemy",
@@ -815,9 +829,11 @@ souldescription: "Restores HP of allies with his extremely handsome aura!",
 soulattribute: "",
 soulrange: "All Allies",
 skill: "Popularity",
-skilldescription: "Makes foes more likely to befriend you."
+skilldescription: "Makes foes more likely to befriend you.",
+evolvers: [ ],
+evolution: 42
 }, 
-42: { // Casanono
+42: { // Golbat
 normalattack: "Guns Blazing",
 normalpower: "15 x 3",
 normalrange: "Single Enemy",
@@ -836,7 +852,7 @@ soulrange: "All Enemies",
 skill: "Unpopularity",
 skilldescription: "Makes foes less likely to become your friend."
 }, 
-43: { // Signibble
+43: { // Oddish
 normalattack: "",
 normalpower: "",
 normalrange: "Single Enemy",
@@ -853,9 +869,11 @@ souldescription: "",
 soulattribute: "",
 soulrange: "",
 skill: "",
-skilldescription: ""
+skilldescription: "",
+evolvers: [ ],
+evolution: 44
 }, 
-44: { // Signiton
+44: { // Gloom
 normalattack: "One-Two Punch",
 normalpower: "15-33 x 2",
 normalrange: "Single Enemy",
@@ -872,9 +890,11 @@ souldescription: "Beats its stomach to call lightning down onto its opponents.",
 soulattribute: "Thunder",
 soulrange: "All Enemies",
 skill: "Lightning Play",
-skilldescription: "Increased damage of Lightning attacks."
+skilldescription: "Increased damage of Lightning attacks.",
+evolvers: [ ],
+evolution: 45
 }, 
-45: { // Statiking
+45: { // Vileplume
 normalattack: "One-Two Punch",
 normalpower: "15-33 x 2",
 normalrange: "Single Enemy",
@@ -893,7 +913,7 @@ soulrange: "",
 skill: "Long Lasting",
 skilldescription: "Good Inspirits will last long."
 }, 
-46: { // Mirapo
+46: { // Paras
 normalattack: "Body Bash",
 normalpower: "15",
 normalrange: "Single Enemy",
@@ -910,9 +930,11 @@ souldescription: "Calls forth a random spirit from the mirror world to attack.",
 soulattribute: "",
 soulrange: "All Enemies",
 skill: "Mirror Body",
-skilldescription: "Reflects half of Technique damage back at foe."
+skilldescription: "Reflects half of Technique damage back at foe.",
+evolvers: [ ],
+evolution: 47
 }, 
-47: { // Mircle
+47: { // Parasect
 normalattack: "Body Bash",
 normalpower: "15",
 normalrange: "Single Enemy",
@@ -931,7 +953,7 @@ soulrange: "All Enemies",
 skill: "Mirror Body",
 skilldescription: "Reflects half of Technique damage back at foe."
 }, 
-48: { // Illoo
+48: { // Venonat
 normalattack: "Hit",
 normalpower: "10",
 normalrange: "Single Enemy",
@@ -948,9 +970,11 @@ souldescription: "Summons will-o'-the-wisps to damage enemies.",
 soulattribute: "",
 soulrange: "All Enemies",
 skill: "Brother's Vow",
-skilldescription: "Stat boost to adjacent Yo-Kai with same skill."
+skilldescription: "Stat boost to adjacent Yo-Kai with same skill.",
+evolvers: [ ],
+evolution: 49
 }, 
-49: { // Elloo
+49: { // Venomoth
 normalattack: "Hit",
 normalpower: "10",
 normalrange: "Single Enemy",
@@ -969,7 +993,7 @@ soulrange: "All Enemies",
 skill: "Brother's Vow",
 skilldescription: "Stat boost to adjacent Yo-Kai with same skill."
 }, 
-50: { // Alloo
+50: { // Diglett
 normalattack: "",
 normalpower: "",
 normalrange: "Single Enemy",
@@ -986,9 +1010,11 @@ souldescription: "",
 soulattribute: "",
 soulrange: "",
 skill: "Brother's Vow",
-skilldescription: "Stat boost to adjacent Yo-Kai with same skill."
+skilldescription: "Stat boost to adjacent Yo-Kai with same skill.",
+evolvers: [ ],
+evolution: 51
 }, 
-51: { // Espy
+51: { // Dugtrio
 normalattack: "Headsmack",
 normalpower: "15",
 normalrange: "Single Enemy",
