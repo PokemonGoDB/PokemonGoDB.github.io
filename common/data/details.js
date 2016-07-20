@@ -82,7 +82,7 @@ skilldescription: "Body deals damage to all foes who attack it.",
 evolvers: [ ],
 evolution: 5
 }, 
-5: { // Cutta-nah-nah
+5: { // Charmeleon
 normalattack: "Double Slice",
 normalpower: "18-39 x 2",
 normalrange: "Single Enemy",
@@ -101,8 +101,9 @@ soulrange: "All Enemies",
 skill: "Bladed Body",
 skilldescription: "Body deals damage to all foes who attack it.",
 evolvers: [ ],
+evolution: 6
 }, 
-6: { // Slacka-slash
+6: { // Charizard
 normalattack: "Double Slice",
 normalpower: "18-39 x 2",
 normalrange: "Single Enemy",
