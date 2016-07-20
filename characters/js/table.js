@@ -31,14 +31,14 @@ var getTableColumns = function() {
     var result = [
         { title: 'Poke #' },
         { title: 'Name', render: addImage },
-        { title: '' },
+        { title: 'Tier' },
         { title: 'Type 1' },
 		{ title: 'Type 2' },
         { title: 'Max CP' },
         { title: 'Max HP' },
+        { title: 'CP per Level' },
         { title: 'Attack DPS' },
         { title: 'Special DPS' },
-        { title: '' },
         { title: '' },
         { title: 'CL', orderable: false }
     ];
