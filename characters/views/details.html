@@ -154,50 +154,7 @@
                             </tbody>
                         </table>
                     </div>
-					
-					<div class="panel panel-default">
-                        <table class="table table-striped-column abilities">
-                            <tbody>
-                                <tr>
-                                    <td>Soultimate</td>
-                                    <td>
-                                        <strong class="soultimate" ng-if="details.soultimate">{{details.soultimate}}</strong>
-                                        <div ng-bind-html="details.souldescription | decorate"></div>
-                                    </td>
-                                </tr>
-                                <tr ng-if="details.cooldown">
-                                    <td>Power</td>
-                                    <td>
-                                        <div ng-bind-html="details.soulpower | decorate"></div>
-                                        
-										<!-- THIS SECTION WILL BE USEFUL WHEN POWERS ARE CHANGED IN YW2 -->
-										<!-- same special -->
-                                        <!--<div ng-if="!isSpecialArray" ng-bind-html="details.special | decorate"></div>
-                                        <!-- different specials -->
-                                        <!--<div ng-if="isSpecialArray">
-                                            <span class="badge badge-japan">Japan</span>
-                                            <div ng-bind-html="details.special[0] | decorate"></div>
-                                            <span class="badge badge-global">Global</span>
-                                            <div ng-bind-html="details.special[1] | decorate"></div>
-                                        </div>-->
-									</td>
-                                </tr>
-								<tr>
-                                    <td>Attribute</td>
-                                    <td>
-                                        <div ng-bind-html="details.soulattribute | decorate"></div>
-                                    </td>
-                                </tr>
-								<tr>
-                                    <td>Range</td>
-                                    <td>
-                                        <div ng-bind-html="details.soulrange | decorate"></div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-					
+								
 					
 					<!-- Inspirit and Skill (non-comparison) -->
 
