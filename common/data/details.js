@@ -82,7 +82,7 @@ skilldescription: "Body deals damage to all foes who attack it.",
 evolvers: [ ],
 evolution: 5
 }, 
-5: { // Charmeleon
+5: { // Cutta-nah-nah
 normalattack: "Double Slice",
 normalpower: "18-39 x 2",
 normalrange: "Single Enemy",
@@ -101,9 +101,8 @@ soulrange: "All Enemies",
 skill: "Bladed Body",
 skilldescription: "Body deals damage to all foes who attack it.",
 evolvers: [ ],
-evolution: 6
 }, 
-6: { // Charizard
+6: { // Slacka-slash
 normalattack: "Double Slice",
 normalpower: "18-39 x 2",
 normalrange: "Single Enemy",
@@ -122,7 +121,7 @@ soulrange: "Single Enemy",
 skill: "Bladed Body",
 skilldescription: "Body deals damage to all foes who attack it."
 }, 
-7: { // Squirtle
+7: { // Mochismo
 normalattack: "Power Punch",
 normalpower: "50-110",
 normalrange: "Single Enemy",
@@ -139,10 +138,9 @@ souldescription: "Puffs up and decks an opponent with a mean punch",
 soulattribute: "",
 soulrange: "Single Enemy",
 skill: "Soft Skin",
-skilldescription: "Increases Defense if dealt critical damage.",
-evolution: 8
+skilldescription: "Increases Defense if dealt critical damage."
 }, 
-8: { // Wartortle
+8: { // Minochi
 normalattack: "Power Punch",
 normalpower: "50-110",
 normalrange: "Single Enemy",
@@ -159,10 +157,9 @@ souldescription: "Puffs up and decks an opponent with one mean punch",
 soulattribute: "",
 soulrange: "Single Enemy",
 skill: "Soft Skin",
-skilldescription: "Increases Defense if dealt critical damage.",
-evolution: 9
+skilldescription: "Increases Defense if dealt critical damage."
 }, 
-9: { // Blastoise
+9: { // Helmsman
 normalattack: "Headbutt",
 normalpower: "55-121",
 normalrange: "Single Enemy",
@@ -180,10 +177,10 @@ soulattribute: "",
 soulrange: "All Allies",
 skill: "Spirit Guard",
 skilldescription: "When guarding, he doesn't take damage from his elemental weakness",
-evolvers: [ ],
- 
+evolvers: [ 63 ],
+evolution: 10 
 }, 
-10: { // Caterpie
+10: { // Reuknight
 normalattack: "Stab Storm",
 normalpower: "10-22 x 5",
 normalrange: "Single Enemy",
@@ -201,10 +198,9 @@ soulattribute: "",
 soulrange: "All Enemies",
 skill: "Spirit Guard",
 skilldescription: "When guarding, he doesn't take damage from his elemental weakness",
-evolution: 11
 
 }, 
-11: { // Metapod
+11: { // Corptain
 normalattack: "Stab Storm",
 normalpower: "10-22 x 5",
 normalrange: "Single Enemy",
@@ -221,10 +217,9 @@ souldescription: "Cuts his enemies. Likely to be either critical or a miss.",
 soulattribute: "",
 soulrange: "All Enemies",
 skill: "Spirit Guard",
-skilldescription: "When guarding, he doesn't take damage from his elemental weakness",
-evolution: 12
+skilldescription: "When guarding, he doesn't take damage from his elemental weakness"
 }, 
-12: { // Butterfree
+12: { // Blazion
 normalattack: "Straight Punch",
 normalpower: "90-135",
 normalrange: "Single Enemy",
@@ -243,7 +238,7 @@ soulrange: "All Enemies",
 skill: "Blazing Spirit",
 skilldescription: "When all of his allies are defeated while in front with him, Strength and Spirit up for 5 turns!"
 }, 
-13: { // Weedle
+13: { // Quaken
 normalattack: "",
 normalpower: "90-135",
 normalrange: "Single Enemy",
@@ -260,10 +255,9 @@ souldescription: "Hits all opponents",
 soulattribute: "",
 soulrange: "",
 skill: "",
-skilldescription: "When one of his allies are defeated while in front with him, STR and Spirit up for 5 turns!",
-evolution: 14
+skilldescription: "When one of his allies are defeated while in front with him, STR and Spirit up for 5 turns!"
 }, 
-14: { // Kakuna
+14: { // Siro
 normalattack: "Practiced Punch",
 normalpower: "90-135",
 normalrange: "Single Enemy",
@@ -280,10 +274,9 @@ souldescription: "Massively increases the STR of allies with his fierce aura.",
 soulattribute: "",
 soulrange: "All Allies",
 skill: "Shining Spirit",
-skilldescription: "Power increases when an ally is defeated.",
-evolution: 15
+skilldescription: "Power increases when an ally is defeated."
 }, 
-15: { // Beedrill
+15: { // Chansin
 normalattack: "One-Two Punch",
 normalpower: "15-33 x 2",
 normalrange: "Single Enemy",
@@ -302,7 +295,7 @@ soulrange: "All Allies",
 skill: "Gambler",
 skilldescription: "High chance to give and take critical strikes."
 }, 
-16: { // Pidgey
+16: { // Sheen
 normalattack: "Lightning Slash",
 normalpower: "20-44 x 3",
 normalrange: "Single Enemy",
@@ -319,10 +312,9 @@ souldescription: "Cuts one foe with the blade of just. High critical chance.",
 soulattribute: "",
 soulrange: "Single Enemy",
 skill: "Light Speed",
-skilldescription: "High chance to deal critical attacks.",
-evolution: 17
+skilldescription: "High chance to deal critical attacks."
 }, 
-17: { // Pidgeotto
+17: { // Snee
 normalattack: "Lightning Slash",
 normalpower: "20-44 x 3",
 normalrange: "Single Enemy",
@@ -339,10 +331,9 @@ souldescription: "Dices all opponents with his cursed blade.",
 soulattribute: "",
 soulrange: "All Enemies",
 skill: "",
-skilldescription: "",
-evolution: 18
+skilldescription: ""
 }, 
-18: { // Pidgeot
+18: { // Gleam
 normalattack: "",
 normalpower: "",
 normalrange: "Single Enemy",
@@ -361,7 +352,7 @@ soulrange: "",
 skill: "",
 skilldescription: ""
 }, 
-19: { // Rattata
+19: { // Benkei
 normalattack: "Flash Slash",
 normalpower: "20-44 x 3",
 normalrange: "Single Enemy",
@@ -378,10 +369,9 @@ souldescription: "Unleashes 999 blades and attacks all foes",
 soulattribute: "",
 soulrange: "All Enemies",
 skill: "Sword Hunting",
-skilldescription: "When he defeats an enemy, strength and spirit up!",
-evolution: 20
+skilldescription: "When he defeats an enemy, strength and spirit up!"
 }, 
-20: { // Raticate
+20: { // B3-NK1
 normalattack: "Lightning Slash",
 normalpower: "20-44 x 3",
 normalrange: "Single Enemy",
@@ -400,7 +390,7 @@ soulrange: "All Enemies",
 skill: "Sword Hunting",
 skilldescription: "When he defeats an enemy, strength and spirit up!"
 }, 
-21: { // Spearow
+21: { // Sushiyama
 normalattack: "Headbuster",
 normalpower: "130-195",
 normalrange: "Single Enemy",
@@ -417,10 +407,9 @@ souldescription: "Smashes his pole into a foe. High critical hit and miss chance
 soulattribute: "",
 soulrange: "Single Enemy",
 skill: "Guard Break",
-skilldescription: "Ignore foe's guard effect when attacking.",
-evolution: 22
+skilldescription: "Ignore foe's guard effect when attacking."
 }, 
-22: { // Fearow
+22: { // Kapunki
 normalattack: "Headbuster",
 normalpower: "130-195",
 normalrange: "Single Enemy",
@@ -439,7 +428,7 @@ soulrange: "Single Enemy",
 skill: "The Stand",
 skilldescription: "Will keep 1 HP after a knockout blow once."
 }, 
-23: { // Ekans
+23: { // Beetler
 normalattack: "One-Two Punch",
 normalpower: "15-33 x 2",
 normalrange: "Single Enemy",
@@ -456,10 +445,9 @@ souldescription: "Pinches a foe with… well, his pincers.",
 soulattribute: "",
 soulrange: "Single Enemy",
 skill: "Too Serious",
-skilldescription: "Doesn't loaf around at all.",
-evolution: 24
+skilldescription: "Doesn't loaf around at all."
 }, 
-24: { // Arbok
+24: { // Beetall
 normalattack: "Meteor Punch",
 normalpower: "20-30 x 3",
 normalrange: "Single Enemy",
@@ -478,7 +466,7 @@ soulrange: "Single Enemy",
 skill: "Intimidating Sense",
 skilldescription: "All Yo-Kai, even the opponent Yo-Kai, will not loaf around."
 }, 
-25: { // Pikachu
+25: { // Cruncha
 normalattack: "Meteor Punch",
 normalpower: "20-30 x 3",
 normalrange: "Single Enemy",
@@ -495,10 +483,9 @@ souldescription: "Cuts an enemy with the massive pincers on his head.",
 soulattribute: "",
 soulrange: "Single Enemy",
 skill: "Intimidating Sense",
-skilldescription: "All Yo-Kai, even the opponent Yo-Kai, will not loaf around.",
-evolution: 26
+skilldescription: "All Yo-Kai, even the opponent Yo-Kai, will not loaf around."
 }, 
-26: { // Raichu
+26: { // Zerberker
 normalattack: "Lightning Slash",
 normalpower: "20-44 x 3",
 normalrange: "Single Enemy",
