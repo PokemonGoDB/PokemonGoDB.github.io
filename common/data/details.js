@@ -2663,6 +2663,9 @@ soulattribute: "",
 soulrange: "",
 skill: "",
 skilldescription: "",
+evolvers: [ ],
+evolution: [ 134, 135 ]
+
 
 }, 
 134: { // Vaporeon
