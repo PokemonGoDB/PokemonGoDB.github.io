@@ -1,5 +1,5 @@
 window.details = {
-  1: { // Pandle
+  1: { // Bulbasaur
 	normalattack: "Pesky Poke",
 	normalpower: "15-67",
 	normalrange: "Single Enemy",
@@ -20,7 +20,7 @@ window.details = {
         evolvers: [ ],
         evolution: 2
 }, 
-2: { // Undy
+2: { // Ivysaur
 normalattack: "",
 normalpower: "",
 normalrange: "Single Enemy",
@@ -39,6 +39,7 @@ soulrange: "",
 skill: "",
 skilldescription: "",
 evolvers: [ ],
+evolution: 3
 }, 
 3: { // Tanbo
 normalattack: "Pointy Pokes",
