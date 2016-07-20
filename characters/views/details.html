@@ -62,46 +62,32 @@
                         </table>
                     </div>
 
-                    <h3 class="page-header">Stats*</h3>
+                    <h3 class="page-header">Stats at Player Level 40*</h3>
 
                     <div class="panel panel-default">
                         <table class="table table-striped">
                             <thead>
                                 <tr>
-                                    <th>Level</th>
+                                    <th>IV's</th>
+                                    <th>CP</th>
                                     <th>HP</th>
-                                    <th>Strength</th>
-                                    <th>Spirit</th>
-									<th>Defense</th>
-									<th>Speed</th>
+
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>1</td>
+                                    <td>Max</td>
                                     <td ng-if="!compare">{{unit.maxEXP | number}}</td>
                                     <td ng-if="compare" comparison="positive">{{unit.maxEXP - compare.maxEXP | number}}</td>
                                     <td ng-if="!compare">{{unit.minHP | number}}</td>
                                     <td ng-if="compare" comparison="positive">{{unit.minHP - compare.minHP | number}}</td>
-                                    <td ng-if="!compare">{{unit.minStrength | number}}</td>
-                                    <td ng-if="compare" comparison="positive">{{unit.minStrength - compare.minStrength | number}}</td>
-									<td ng-if="!compare">{{unit.minRCV | number}}</td>
-                                    <td ng-if="compare" comparison="positive">{{unit.minRCV - compare.minRCV | number}}</td>
-									<td ng-if="!compare">{{unit.minSpeed | number}}</td>
-                                    <td ng-if="compare" comparison="positive">{{unit.minSpeed - compare.minSpeed | number}}</td>
                                 </tr>
                                 <tr>
-                                    <td>99</td>
+                                    <td>Min</td>
                                     <td ng-if="!compare">{{unit.maxHP | number}}</td>
                                     <td ng-if="compare" comparison="positive">{{unit.maxHP - compare.maxHP | number}}</td>
                                     <td ng-if="!compare">{{unit.maxStrength | number}}</td>
                                     <td ng-if="compare" comparison="positive">{{unit.maxStrength - compare.maxStrength | number}}</td>
-                                    <td ng-if="!compare">{{unit.maxRCV | number}}</td>
-                                    <td ng-if="compare" comparison="positive">{{unit.maxRCV - compare.maxRCV | number}}</td>
-									<td ng-if="!compare">{{unit.maxDefense | number}}</td>
-                                    <td ng-if="compare" comparison="positive">{{unit.maxDefense - compare.maxDefense | number}}</td>
-									<td ng-if="!compare">{{unit.maxSpeed | number}}</td>
-                                    <td ng-if="compare" comparison="positive">{{unit.maxSpeed - compare.maxSpeed | number}}</td>
                                 </tr>
                             </tbody>
                         </table>
