@@ -180,8 +180,8 @@ soulattribute: "",
 soulrange: "All Allies",
 skill: "Spirit Guard",
 skilldescription: "When guarding, he doesn't take damage from his elemental weakness",
-evolvers: [ 63 ],
-evolution: 10 
+evolvers: [ ],
+ 
 }, 
 10: { // Caterpie
 normalattack: "Stab Storm",
