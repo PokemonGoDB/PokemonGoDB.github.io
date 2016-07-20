@@ -2,7 +2,10 @@ window.details = {
   1: { // Bulbasaur
 	normalattack: "Pesky Poke",
 	normalpower: "15-67",
-	normalrange: "Single Enemy",
+	normaldps: "Single Enemy",
+	normalattack2: "",
+	normalpower2: "",
+	normaldps2: "",
 	special: "Fire",
 	specialpower: "20-90",
 	specialattribute: "Fire",
