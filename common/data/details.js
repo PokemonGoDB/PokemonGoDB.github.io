@@ -2039,10 +2039,8 @@ soulattribute: "Thunder",
 soulrange: "All Enemies",
 skill: "Omega",
 skilldescription: "With adjacent Alpha Yo-Kai, STR increases.",
-evolvers: [ ],
-evolution: 102
 }, 
-102: { // Komiger
+102: { // Exeggcute
 normalattack: "Practiced Punch",
 normalpower: "90-135",
 normalrange: "Single Enemy",
@@ -2059,9 +2057,11 @@ souldescription: "Calls down lightning bolts upon his unfortunate enemies.",
 soulattribute: "Thunder",
 soulrange: "All Enemies",
 skill: "Omega",
-skilldescription: "With adjacent Alpha Yo-Kai, STR increases."
+skilldescription: "With adjacent Alpha Yo-Kai, STR increases.",
+evolvers: [ ],
+evolution: 103
 }, 
-103: { // Baku
+103: { // Exeggutor
 normalattack: "Slap",
 normalpower: "10-45",
 normalrange: "Single Enemy",
@@ -2080,7 +2080,7 @@ soulrange: "All Enemies",
 skill: "Got a Grip on You",
 skilldescription: "Amount of absorbed HP increased"
 }, 
-104: { // Whispir
+104: { // Cubone
 normalattack: "",
 normalpower: "",
 normalrange: "Single Enemy",
@@ -2097,9 +2097,11 @@ souldescription: "",
 soulattribute: "",
 soulrange: "",
 skill: "",
-skilldescription: ""
+skilldescription: "",
+evolvers: [ ],
+evolution: 105
 }, 
-105: { // Shmoopie
+105: { // Marowak
 normalattack: "Bite",
 normalpower: "15",
 normalrange: "Single Enemy",
@@ -2118,7 +2120,7 @@ soulrange: "All Allies",
 skill: "Popularity",
 skilldescription: "Makes foes more likely to befriend you."
 }, 
-106: { // Pinkipoo
+106: { // Hitmonlee
 normalattack: "Beat",
 normalpower: "40-88",
 normalrange: "Single Enemy",
@@ -2137,7 +2139,7 @@ soulrange: "All Allies",
 skill: "Popularity",
 skilldescription: "Makes foes more likely to befriend you."
 }, 
-107: { // Pookivil
+107: { // Hitmonchan
 normalattack: "Beat",
 normalpower: "40-88",
 normalrange: "Single Enemy",
@@ -2156,7 +2158,7 @@ soulrange: "All Allies",
 skill: "Unpopularity",
 skilldescription: "Makes foes less likely to become your friend."
 }, 
-108: { // Frostina
+108: { // Lickitung
 normalattack: "Slap",
 normalpower: "10-45",
 normalrange: "Single Enemy",
@@ -2175,7 +2177,7 @@ soulrange: "All Enemies",
 skill: "Snow Play",
 skilldescription: "Increased damage of Ice attacks"
 }, 
-109: { // Blizzaria
+109: { // Koffing
 normalattack: "Smack Down",
 normalpower: "20-44 x 2",
 normalrange: "Single Enemy",
@@ -2192,9 +2194,11 @@ souldescription: "Blasts her opponents with a sparkling ice formation.",
 soulattribute: "Ice",
 soulrange: "All Enemies",
 skill: "Snow Play",
-skilldescription: "Increased damage of Ice attacks"
+skilldescription: "Increased damage of Ice attacks",
+evolvers: [ ],
+evolution: 110
 }, 
-110: { // Damona
+110: { // Weezing
 normalattack: "Smack Down",
 normalpower: "20-44 x 2",
 normalrange: "Single Enemy",
@@ -2213,7 +2217,28 @@ soulrange: "All Enemies",
 skill: "Cursed Skin",
 skilldescription: "All stats will increase when Inspirited by foe."
 }, 
-111: { // Wiglin
+111: { // Rhyhorn
+normalattack: "",
+normalpower: "",
+normalrange: "Single Enemy",
+special: "",
+specialpower: "",
+specialattribute: "",
+specialrange: "",
+inspirit: "",
+inspiritdescription: "",
+inspiritrange: "",
+soultimate: "",
+soulpower: "",
+souldescription: "",
+soulattribute: "",
+soulrange: "",
+skill: "",
+skilldescription: "",
+evolvers: [ ],
+evolution: 112
+}, 
+112: { // Rhydon
 normalattack: "",
 normalpower: "",
 normalrange: "Single Enemy",
@@ -2232,7 +2257,7 @@ soulrange: "",
 skill: "",
 skilldescription: ""
 }, 
-112: { // Steppa
+113: { // Chansey
 normalattack: "",
 normalpower: "",
 normalrange: "Single Enemy",
@@ -2251,26 +2276,7 @@ soulrange: "",
 skill: "",
 skilldescription: ""
 }, 
-113: { // Rhyth
-normalattack: "",
-normalpower: "",
-normalrange: "Single Enemy",
-special: "",
-specialpower: "",
-specialattribute: "",
-specialrange: "",
-inspirit: "",
-inspiritdescription: "",
-inspiritrange: "",
-soultimate: "",
-soulpower: "",
-souldescription: "",
-soulattribute: "",
-soulrange: "",
-skill: "",
-skilldescription: ""
-}, 
-114: { // Wantson
+114: { // Tangela
 normalattack: "Slap",
 normalpower: "10-45",
 normalrange: "Single Enemy",
@@ -2289,7 +2295,7 @@ soulrange: "All Enemies",
 skill: "Greed",
 skilldescription: "Foe will be more prone to drop items."
 }, 
-115: { // Grubsnitch
+115: { // Kangaskhan
 normalattack: "Smack Down",
 normalpower: "20-44 x 2",
 normalrange: "Single Enemy",
@@ -2308,7 +2314,7 @@ soulrange: "All Enemies",
 skill: "Snitch",
 skilldescription: "Steals foe's HP with regular attacks."
 }, 
-116: { // Hungramps
+116: { // Horsea
 normalattack: "Headsmack",
 normalpower: "15",
 normalrange: "Single Enemy",
@@ -2329,7 +2335,7 @@ skilldescription: "The effect of food on allies will double.",
 evolvers: [ ],
 evolution: 117
 }, 
-117: { // Hungorge
+117: { // Seadra
 normalattack: "Chomp",
 normalpower: "45-99",
 normalrange: "Single Enemy",
@@ -2348,7 +2354,7 @@ soulrange: "All Allies",
 skill: "Starver",
 skilldescription: "The effect of food on allies will double."
 }, 
-118: { // Grainpa
+118: { // Goldeen
 normalattack: "",
 normalpower: "",
 normalrange: "Single Enemy",
@@ -2365,9 +2371,11 @@ souldescription: "",
 soulattribute: "",
 soulrange: "",
 skill: "",
-skilldescription: ""
+skilldescription: "",
+evolvers: [ ],
+evolution: 119
 }, 
-119: { // Lodo
+119: { // Seaking
 normalattack: "Kick",
 normalpower: "15",
 normalrange: "Single Enemy",
@@ -2386,7 +2394,7 @@ soulrange: "All Enemies",
 skill: "Stealing",
 skilldescription: "Increases money at the end of battle."
 }, 
-120: { // Chippa
+120: { // Staryu
 normalattack: "Flip Kick",
 normalpower: "60",
 normalrange: "Single Enemy",
@@ -2403,9 +2411,11 @@ souldescription: "Confuses his enemies with his strong pose and mysterious aura.
 soulattribute: "",
 soulrange: "All Enemies",
 skill: "Optimism Power",
-skilldescription: "Gradually recovers HP of adjacent Yo-Kai."
+skilldescription: "Gradually recovers HP of adjacent Yo-Kai.",
+evolvers: [ ],
+evolution: 121
 }, 
-121: { // Enerfly
+121: { // Starmie
 normalattack: "Slap",
 normalpower: "10-45",
 normalrange: "Single Enemy",
@@ -2424,7 +2434,7 @@ soulrange: "All Allies",
 skill: "Miraculous Scales",
 skilldescription: "Does not get inspirited by enemies."
 }, 
-122: { // Enefly
+122: { // Mr. Mime
 normalattack: "Slap",
 normalpower: "10-45",
 normalrange: "Single Enemy",
@@ -2443,7 +2453,7 @@ soulrange: "All Enemies",
 skill: "Miraculous Scales",
 skilldescription: "Does not get inspirited by enemies."
 }, 
-123: { // Betterfly
+123: { // Scyther
 normalattack: "Smack Down",
 normalpower: "20-44 x 2",
 normalrange: "Single Enemy",
@@ -2462,7 +2472,7 @@ soulrange: "All Allies",
 skill: "Miraculous Scales",
 skilldescription: "Does not get inspirited by enemies"
 }, 
-124: { // Peppillon
+124: { // Jynx
 normalattack: "",
 normalpower: "",
 normalrange: "Single Enemy",
@@ -2481,7 +2491,7 @@ soulrange: "All Allies",
 skill: "",
 skilldescription: "Does not get Inspirited by enemies."
 }, 
-125: { // Happierre
+125: { // Electabuzz
 normalattack: "Body Bash",
 normalpower: "15",
 normalrange: "Single Enemy",
@@ -2500,7 +2510,7 @@ soulrange: "All Allies",
 skill: "Caring",
 skilldescription: "Gradually recovers HP of adjacent Yo-Kai"
 }, 
-126: { // Reversa
+126: { // Magmar
 normalattack: "Tackle",
 normalpower: "60-90",
 normalrange: "Single Enemy",
@@ -2519,7 +2529,7 @@ soulrange: "All Allies",
 skill: "Insecure",
 skilldescription: "High chance to give and take critical strikes."
 }, 
-127: { // Reversette
+127: { // Pinsir
 normalattack: "Tackle",
 normalpower: "60-90",
 normalrange: "Single Enemy",
@@ -2538,7 +2548,7 @@ soulrange: "All Allies",
 skill: "Storm",
 skilldescription: ""
 }, 
-128: { // Ol' Saint Trick
+128: { // Tauros
 normalattack: "Fullswing",
 normalpower: "80",
 normalrange: "Single Enemy",
@@ -2557,7 +2567,7 @@ soulrange: "All Allies",
 skill: "Caring",
 skilldescription: "Gradually recovers HP of adjacent Yo-Kai."
 }, 
-129: { // Ol' Fortune
+129: { // Magikarp
 normalattack: "Fullswing",
 normalpower: "80",
 normalrange: "Single Enemy",
@@ -2574,9 +2584,11 @@ souldescription: "Opens a bag full of presents that restore the HP of allies.",
 soulattribute: "",
 soulrange: "All Allies",
 skill: "Penetrate",
-skilldescription: "Always deals elemental damage"
+skilldescription: "Always deals elemental damage",
+evolvers: [ ],
+evolution: 130
 }, 
-130: { // Rollen
+130: { // Gyarados
 normalattack: "Earthsplitter",
 normalpower: "95",
 normalrange: "Single Enemy",
@@ -2595,7 +2607,7 @@ soulrange: "",
 skill: "Gambler",
 skilldescription: "High chance to give and take critical strikes."
 }, 
-131: { // Dubbles
+131: { // Lapras
 normalattack: "Earthsplitter",
 normalpower: "95",
 normalrange: "Single Enemy",
@@ -2614,7 +2626,7 @@ soulrange: "All Enemies",
 skill: "Gambler",
 skilldescription: "High chance to give and take critical strikes."
 }, 
-132: { // Papa Bolt
+132: { // Ditto
 normalattack: "Practiced Punch",
 normalpower: "90-135",
 normalrange: "Single Enemy",
@@ -2633,7 +2645,7 @@ soulrange: "All Enemies",
 skill: "Strict",
 skilldescription: "All allies will Loaf around less."
 }, 
-133: { // Uncle Infinite
+133: { // Eevee
 normalattack: "",
 normalpower: "",
 normalrange: "Single Enemy",
@@ -2650,7 +2662,9 @@ souldescription: "",
 soulattribute: "",
 soulrange: "",
 skill: "",
-skilldescription: ""
+skilldescription: "",
+evolvers: [ ],
+evolution: [ 134, 135, 136 ]
 }, 
 134: { // Mama Aura
 normalattack: "Smack Down",
