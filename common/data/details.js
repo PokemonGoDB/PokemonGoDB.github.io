@@ -2663,8 +2663,7 @@ soulattribute: "",
 soulrange: "",
 skill: "",
 skilldescription: "",
-evolvers: [ ],
-evolution: [ 134, 135, 136 ]
+
 }, 
 134: { // Mama Aura
 normalattack: "Smack Down",
