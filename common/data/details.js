@@ -2665,7 +2665,7 @@ skill: "",
 skilldescription: "",
 
 }, 
-134: { // Mama Aura
+134: { // Vaporeon
 normalattack: "Smack Down",
 normalpower: "20-44 x 2",
 normalrange: "Single Enemy",
@@ -2684,7 +2684,7 @@ soulrange: "All Allies",
 skill: "Prayer",
 skilldescription: "Gradually recovers HP of adjacent Yo-Kai."
 }, 
-135: { // Auntie Heart
+135: { // Jolteon
 normalattack: "Smack Down",
 normalpower: "20-44 x 2",
 normalrange: "Single Enemy",
@@ -2703,7 +2703,7 @@ soulrange: "All Allies",
 skill: "Prayer",
 skilldescription: "Gradually recovers HP of adjacent Yo-Kai."
 }, 
-136: { // Leadoni
+136: { // Flareon
 normalattack: "Slap",
 normalpower: "10-45",
 normalrange: "Single Enemy",
@@ -2722,7 +2722,7 @@ soulrange: "Self",
 skill: "Windshield",
 skilldescription: "Lessens damage from Wind attacks."
 }, 
-137: { // Mynimo
+137: { // Porygon
 normalattack: "Slap",
 normalpower: "10-45",
 normalrange: "Single Enemy",
@@ -2741,7 +2741,7 @@ soulrange: "Single Ally",
 skill: "Windshield",
 skilldescription: "Lessens damage from Wind attacks."
 }, 
-138: { // Ake
+138: { // Omanyte
 normalattack: "Kick",
 normalpower: "10",
 normalrange: "Single Enemy",
@@ -2758,9 +2758,11 @@ souldescription: "Damages an enemy, but deals recoil",
 soulattribute: "",
 soulrange: "Single Enemy",
 skill: "Extreme Critical",
-skilldescription: "Power of critical attacks is high"
+skilldescription: "Power of critical attacks is high",
+evolvers: [ ],
+evolution: 139
 }, 
-139: { // Payn
+139: { // Omastar
 normalattack: "",
 normalpower: "",
 normalrange: "Single Enemy",
@@ -2779,7 +2781,7 @@ soulrange: "",
 skill: "",
 skilldescription: ""
 }, 
-140: { // Agon
+140: { // Kabuto
 normalattack: "Power Punch",
 normalpower: "50-110",
 normalrange: "Single Enemy",
@@ -2796,9 +2798,11 @@ souldescription: "Bashes a foe's hips; May cancel Soultimate moves",
 soulattribute: "",
 soulrange: "Single Enemy",
 skill: "Extreme Critical",
-skilldescription: "Power of critical attacks is high"
+skilldescription: "Power of critical attacks is high",
+evolvers: [ ],
+evolution: 141
 }, 
-141: { // Negatibuzz
+141: { // Kabutops
 normalattack: "Pesky Poke",
 normalpower: "15-67",
 normalrange: "Single Enemy",
@@ -2816,10 +2820,8 @@ soulattribute: "",
 soulrange: "All Enemies",
 skill: "Vampiric",
 skilldescription: "Absorbs foe's HP with regular attacks.",
-evolvers: [ ],
-evolution: 142
 }, 
-142: { // Moskevil
+142: { // Aerodactyl
 normalattack: "Pinpoint Pierce",
 normalpower: "30",
 normalrange: "Single Enemy",
@@ -2838,7 +2840,7 @@ soulrange: "All Enemies",
 skill: "Vampiric",
 skilldescription: "Absorbs foe's HP with regular attacks"
 }, 
-143: { // Scritchy
+143: { // Snorlax
 normalattack: "Pinpoint Pierce",
 normalpower: "30",
 normalrange: "Single Enemy",
@@ -2857,7 +2859,7 @@ soulrange: "All Enemies",
 skill: "Vampiric",
 skilldescription: "Absorbs foe's HP with regular attacks."
 }, 
-144: { // Dimmy
+144: { // Articuno
 normalattack: "Stepping Slice",
 normalpower: "15",
 normalrange: "Single Enemy",
@@ -2875,10 +2877,9 @@ soulattribute: "",
 soulrange: "Single Enemy",
 skill: "Secrecy",
 skilldescription: "Will not become target of attacks.",
-evolvers: [ ],
-evolution: 145
+
 }, 
-145: { // Blandon
+145: { // Zapdos
 normalattack: "Ninja Star",
 normalpower: "60",
 normalrange: "Single Enemy",
@@ -2897,7 +2898,7 @@ soulrange: "Single Enemy",
 skill: "Secrecy",
 skilldescription: "Will not become target of attacks"
 }, 
-146: { // Nul
+146: { // Moltres
 normalattack: "Ninja Star",
 normalpower: "60",
 normalrange: "Single Enemy",
@@ -2916,7 +2917,7 @@ soulrange: "Single Enemy",
 skill: "Secrecy",
 skilldescription: "Will not become target of attacks."
 }, 
-147: { // Hidabat
+147: { // Dratini
 normalattack: "Slap",
 normalpower: "10-45",
 normalrange: "Single Enemy",
@@ -2933,9 +2934,11 @@ souldescription: "Hindes enemies with a cursed lullaby.",
 soulattribute: "",
 soulrange: "All Enemies",
 skill: "Vampiric",
-skilldescription: "Absorbs foe's HP with regular attacks"
+skilldescription: "Absorbs foe's HP with regular attacks",
+evolvers: [ ],
+evolution: 148
 }, 
-148: { // Abodabat
+148: { // Dragonair
 normalattack: "Tackle",
 normalpower: "60-90",
 normalrange: "Single Enemy",
@@ -2952,9 +2955,11 @@ souldescription: "Hinders enemies with a soulful ballad",
 soulattribute: "",
 soulrange: "All Enemies",
 skill: "Vampiric",
-skilldescription: "Absorbs foe's HP with regular attacks"
+skilldescription: "Absorbs foe's HP with regular attacks",
+evolvers: [ ],
+evolution: 149
 }, 
-149: { // Belfree
+149: { // Dragonite
 normalattack: "Tackle",
 normalpower: "60-90",
 normalrange: "Single Enemy",
@@ -2973,7 +2978,7 @@ soulrange: "All Enemies",
 skill: "Vampiric",
 skilldescription: "Absorbs foe's HP with regular attacks"
 }, 
-150: { // Suspicioni
+150: { // Mewtwo
 normalattack: "Pinpoint Pierce",
 normalpower: "30",
 normalrange: "Single Enemy",
@@ -2992,7 +2997,7 @@ soulrange: "All Enemies",
 skill: "Suspicion",
 skilldescription: "May attack an ally."
 }, 
-151: { // Tantroni
+151: { // Mew
 normalattack: "Pinpoint Pierce",
 normalpower: "30",
 normalrange: "Single Enemy",
