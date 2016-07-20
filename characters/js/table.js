@@ -29,7 +29,7 @@ for (var i=0;i<log.length;++i) characterLog[log[i]] = true;
 
 var getTableColumns = function() {
     var result = [
-        { title: 'YW1 ID' },
+        { title: 'Poke #' },
         { title: 'Name', render: addImage },
         { title: 'Rank' },
         { title: 'Class' },
