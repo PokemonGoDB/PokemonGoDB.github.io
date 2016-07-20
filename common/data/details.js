@@ -2663,7 +2663,7 @@ soulattribute: "",
 soulrange: "",
 skill: "",
 skilldescription: "",
-evolution: [ 134, 135 ],
+evolution: 134, 135,
 evolvers: [ ],
 
 
