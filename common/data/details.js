@@ -122,7 +122,7 @@ soulrange: "Single Enemy",
 skill: "Bladed Body",
 skilldescription: "Body deals damage to all foes who attack it."
 }, 
-7: { // Mochismo
+7: { // Squirtle
 normalattack: "Power Punch",
 normalpower: "50-110",
 normalrange: "Single Enemy",
@@ -139,9 +139,10 @@ souldescription: "Puffs up and decks an opponent with a mean punch",
 soulattribute: "",
 soulrange: "Single Enemy",
 skill: "Soft Skin",
-skilldescription: "Increases Defense if dealt critical damage."
+skilldescription: "Increases Defense if dealt critical damage.",
+evolution: 8
 }, 
-8: { // Minochi
+8: { // Wartortle
 normalattack: "Power Punch",
 normalpower: "50-110",
 normalrange: "Single Enemy",
