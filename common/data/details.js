@@ -1033,7 +1033,7 @@ soulrange: "All Enemies",
 skill: "Hanging In",
 skilldescription: "Won't get bad effects from enemy Inspirits."
 }, 
-52: { // Infour
+52: { // Meowth
 normalattack: "Headsmack",
 normalpower: "15",
 normalrange: "Single Enemy",
@@ -1050,9 +1050,11 @@ souldescription: "Absorbs HP from all foes and divides it among her allies.",
 soulattribute: "Absorption",
 soulrange: "All Enemies",
 skill: "Hanging In",
-skilldescription: "Won't get bad effects from enemy Inspirits."
+skilldescription: "Won't get bad effects from enemy Inspirits.",
+evolvers: [ ],
+evolution: 53
 }, 
-53: { // Tengu
+53: { // Persian
 normalattack: "Nasty Kick",
 normalpower: "100",
 normalrange: "Single Enemy",
@@ -1071,7 +1073,7 @@ soulrange: "All Enemies",
 skill: "Wind Play",
 skilldescription: "Increased damage of Wind attacks."
 }, 
-54: { // Flengu
+54: { // Psyduck
 normalattack: "Nasty Kick",
 normalpower: "100",
 normalrange: "Single Enemy",
@@ -1088,9 +1090,11 @@ souldescription: "Uses its fan to create a typhoon that blasts all of its enemie
 soulattribute: "Fire",
 soulrange: "All Enemies",
 skill: "Fire Play",
-skilldescription: "Increased damage of Fire attacks."
+skilldescription: "Increased damage of Fire attacks.",
+evolvers: [ ],
+evolution: 55
 }, 
-55: { // Kyubi
+55: { // Golduck
 normalattack: "Tail Slap",
 normalpower: "100-150",
 normalrange: "Single Enemy",
@@ -1109,7 +1113,7 @@ soulrange: "All Enemies",
 skill: "Sense of Smell",
 skilldescription: "Never misses attacks."
 }, 
-56: { // Frostail
+56: { // Mankey
 normalattack: "Tail Slap",
 normalpower: "100-150",
 normalrange: "Single Enemy",
@@ -1126,9 +1130,11 @@ souldescription: "Freezes his foes with his powerful, icy spirit.",
 soulattribute: "Ice",
 soulrange: "All Enemies",
 skill: "Sense of Smell",
-skilldescription: "Never misses attacks."
+skilldescription: "Never misses attacks.",
+evolvers: [ ],
+evolution: 57
 }, 
-57: { // Dulluma
+57: { // Primeape
 normalattack: "Body Bash",
 normalpower: "15",
 normalrange: "Single Enemy",
@@ -1147,7 +1153,7 @@ soulrange: "Single Enemy",
 skill: "Glossy Skin",
 skilldescription: "Does not get dealt critical damage."
 }, 
-58: { // Darumacho
+58: { // Growlithe
 normalattack: "Power Punch",
 normalpower: "50-110",
 normalrange: "Single Enemy",
@@ -1164,9 +1170,11 @@ souldescription: "Jumps and charges a foe, but will hurt himself with the effort
 soulattribute: "",
 soulrange: "Single Enemy",
 skill: "Glossy Skin",
-skilldescription: "Does not get dealt critical damage."
+skilldescription: "Does not get dealt critical damage.",
+evolvers: [ ],
+evolution: 59
 }, 
-59: { // Goruma
+59: { // Arcanine
 normalattack: "Power Punch",
 normalpower: "50-110",
 normalrange: "Single Enemy",
@@ -1185,7 +1193,7 @@ soulrange: "Single Enemy",
 skill: "Glossy Skin",
 skilldescription: "Does not get dealt critical damage."
 }, 
-60: { // Noway
+60: { // Poliwag
 normalattack: "Body Bash",
 normalpower: "15",
 normalrange: "Single Enemy",
@@ -1206,7 +1214,7 @@ skilldescription: "Will be guarding when moving to the front.",
 evolvers: [ ],
 evolution: 61
 }, 
-61: { // Impass
+61: { // Poliwhirl
 normalattack: "Tackle",
 normalpower: "60-90",
 normalrange: "Single Enemy",
@@ -1223,9 +1231,11 @@ souldescription: "Defense up and draws enemy attacks.",
 soulattribute: "",
 soulrange: "Self",
 skill: "Blocker",
-skilldescription: "Will be guarding when moving to the front."
+skilldescription: "Will be guarding when moving to the front.",
+evolvers: [ ],
+evolution: 62
 }, 
-62: { // Walldin
+62: { // Poliwrath
 normalattack: "Tackle",
 normalpower: "60-90",
 normalrange: "Single Enemy",
@@ -1244,7 +1254,7 @@ soulrange: "All Enemies",
 skill: "Blocker",
 skilldescription: "Will be guarding when moving to the front."
 }, 
-63: { // Armsman
+63: { // Abra
 normalattack: "Power Punch",
 normalpower: "50-110",
 normalrange: "Single Enemy",
@@ -1262,10 +1272,10 @@ soulattribute: "",
 soulrange: "All Allies",
 skill: "Spirit Guard",
 skilldescription: "When guarding, he doesn't take damage from his elemental weakness",
-evolvers: [ 9 ],
-evolution: 10
+evolvers: [ ],
+evolution: 64
 }, 
-64: { // Fidgephant
+64: { // Kadabra
 normalattack: "Fullswing",
 normalpower: "80",
 normalrange: "Single Enemy",
@@ -1282,9 +1292,11 @@ souldescription: "Slaps an opponent with its nose. May cancel Soultimate Moves."
 soulattribute: "",
 soulrange: "Single Enemy",
 skill: "Endurance",
-skilldescription: "Will keep 1 HP after a knockout blow once."
+skilldescription: "Will keep 1 HP after a knockout blow once.",
+evolvers: [ ],
+evolution: 65
 }, 
-65: { // Touphant
+65: { // Alakazam
 normalattack: "Fullswing",
 normalpower: "80",
 normalrange: "Single Enemy",
@@ -1303,7 +1315,7 @@ soulrange: "Single Enemy",
 skill: "Endurance",
 skilldescription: "Will keep 1 HP after a knockout blow once."
 }, 
-66: { // Blowkade
+66: { // Machop
 normalattack: "Palm Strike",
 normalpower: "60",
 normalrange: "Single Enemy",
@@ -1320,9 +1332,11 @@ souldescription: "Raises defense and draws enemy attacks. Quite the effective bl
 soulattribute: "",
 soulrange: "Self",
 skill: "The Stand",
-skilldescription: "Will keep 1 HP after a knockout blow once."
+skilldescription: "Will keep 1 HP after a knockout blow once.",
+evolvers: [ ],
+evolution: 67
 }, 
-67: { // Ledballoon
+67: { // Machoke
 normalattack: "Palm Strike",
 normalpower: "60",
 normalrange: "Single Enemy",
@@ -1339,9 +1353,11 @@ souldescription: "Slaps an enemy. May cancel Soultimate Moves.",
 soulattribute: "",
 soulrange: "Single Enemy",
 skill: "The Stand",
-skilldescription: "Will keep 1 HP after a knockout blow once."
+skilldescription: "Will keep 1 HP after a knockout blow once.",
+evolvers: [ ],
+evolution: 68
 }, 
-68: { // Mad Mountain
+68: { // Machamp
 normalattack: "Palm Strike",
 normalpower: "60",
 normalrange: "Single Enemy",
@@ -1360,7 +1376,7 @@ soulrange: "Self",
 skill: "The Stand",
 skilldescription: "Will keep 1 HP after a knockout blow once."
 }, 
-69: { // Lava Lord
+69: { // Bellsprout
 normalattack: "Palm Strike",
 normalpower: "60",
 normalrange: "Single Enemy",
@@ -1377,9 +1393,11 @@ souldescription: "Puts all his Defense into a ritual stomp and draws enemy attac
 soulattribute: "",
 soulrange: "Self",
 skill: "The Stand",
-skilldescription: "Will keep 1 HP after a knockout blow once."
+skilldescription: "Will keep 1 HP after a knockout blow once.",
+evolvers: [ ],
+evolution: 70
 }, 
-70: { // Roughraff
+70: { // Weepinbell
 normalattack: "Headbutt",
 normalpower: "55-121",
 normalrange: "Single Enemy",
@@ -1400,7 +1418,7 @@ skilldescription: "Reflects some damage back to foe.",
 evolvers: [ ],
 evolution: 71
 }, 
-71: { // Badude
+71: { // Victreebel
 normalattack: "Headbuster",
 normalpower: "130-195",
 normalrange: "Single Enemy",
@@ -1419,7 +1437,7 @@ soulrange: "All Enemies",
 skill: "Revenge",
 skilldescription: "Reflects some damage back at foe"
 }, 
-72: { // Bruff
+72: { // Tentacool
 normalattack: "Headbuster",
 normalpower: "130-195",
 normalrange: "Single Enemy",
@@ -1436,9 +1454,11 @@ souldescription: "Crunches his foes with his nail bat. Likely to be either criti
 soulattribute: "",
 soulrange: "All Enemies",
 skill: "Revenge",
-skilldescription: "Reflects some damage back to foe."
+skilldescription: "Reflects some damage back to foe.",
+evolvers: [ ],
+evolution: 73
 }, 
-73: { // Rhinoggin
+73: { // Tentacruel
 normalattack: "Fullswing",
 normalpower: "80",
 normalrange: "Single Enemy",
@@ -1457,7 +1477,7 @@ soulrange: "Single Enemy",
 skill: "Guard Break",
 skilldescription: "Ignore foe's guard effect when attacking."
 }, 
-74: { // Rhinormous
+74: { // Geodude
 normalattack: "",
 normalpower: "",
 normalrange: "Single Enemy",
@@ -1474,9 +1494,11 @@ souldescription: "",
 soulattribute: "",
 soulrange: "",
 skill: "",
-skilldescription: ""
+skilldescription: "",
+evolvers: [ ],
+evolution: 75
 }, 
-75: { // Hornaplenty
+75: { // Graveler
 normalattack: "Headbuster",
 normalpower: "130-195",
 normalrange: "Single Enemy",
@@ -1493,9 +1515,11 @@ souldescription: "Smashes into an enemy like a dump truck with a horn!",
 soulattribute: "",
 soulrange: "Single Enemy",
 skill: "Guard Break",
-skilldescription: "Ignore foe's guard effect when attacking."
+skilldescription: "Ignore foe's guard effect when attacking.",
+evolvers: [ ],
+evolution: 76
 }, 
-76: { // Castelius III
+76: { // Golem
 normalattack: "Body Bash",
 normalpower: "15",
 normalrange: "Single Enemy",
@@ -1514,7 +1538,7 @@ soulrange: "All",
 skill: "Bronze Guard",
 skilldescription: "Lessen Earth and Wind damage."
 }, 
-77: { // Castelius II
+77: { // Ponyta
 normalattack: "Tackle",
 normalpower: "60-90",
 normalrange: "Single Enemy",
@@ -1531,9 +1555,11 @@ souldescription: "Increases Defense and draws enemy attacks.",
 soulattribute: "",
 soulrange: "Self",
 skill: "Silver Guard",
-skilldescription: "Lesen Fire and Ice damage."
+skilldescription: "Lesen Fire and Ice damage.",
+evolvers: [ ],
+evolution: 78
 }, 
-78: { // Castelius I
+78: { // Rapidash
 normalattack: "Bone Crusher",
 normalpower: "100-150",
 normalrange: "Single Enemy",
@@ -1552,7 +1578,7 @@ soulrange: "All",
 skill: "Gold Guard",
 skilldescription: "Lessen Lightning and Water damage."
 }, 
-79: { // Castelius Max
+79: { // Slowpoke
 normalattack: "Bone Crusher",
 normalpower: "100-150",
 normalrange: "Single Enemy",
@@ -1569,9 +1595,11 @@ souldescription: "Increases Defense and draws enemy attacks.",
 soulattribute: "",
 soulrange: "Self",
 skill: "Platinum Guard",
-skilldescription: "Weakens Ice, Wind, and Water elemental hits. (He only takes 1/3 of the damage)"
+skilldescription: "Weakens Ice, Wind, and Water elemental hits. (He only takes 1/3 of the damage)",
+evolvers: [ ],
+evolution: 80
 }, 
-80: { // Robonyan
+80: { // Slowbro
 normalattack: "Rocket Punch",
 normalpower: "100",
 normalrange: "Single Enemy",
@@ -1590,7 +1618,7 @@ soulrange: "Self",
 skill: "Blocker",
 skilldescription: "Will be guarding when moving to the front."
 }, 
-81: { // Goldenyan
+81: { // Magnemite
 normalattack: "Rocket Punch",
 normalpower: "100",
 normalrange: "Single Enemy",
@@ -1607,9 +1635,11 @@ souldescription: "",
 soulattribute: "",
 soulrange: "",
 skill: "",
-skilldescription: ""
+skilldescription: "",
+evolvers: [ ],
+evolution: 82
 }, 
-82: { // Dromp
+82: { // Magneton
 normalattack: "Steamroll",
 normalpower: "60",
 normalrange: "Single Enemy",
@@ -1628,7 +1658,7 @@ soulrange: "All",
 skill: "Insulator",
 skilldescription: "Lessen damage from Lightning attacks."
 }, 
-83: { // Swosh
+83: { // Farfetch'd
 normalattack: "Steamroll",
 normalpower: "60",
 normalrange: "Single Enemy",
@@ -1647,7 +1677,7 @@ soulrange: "Self",
 skill: "Blessed Body",
 skilldescription: "When defeated, Yo-Kai in the front will recover HP."
 }, 
-84: { // Dazzabel
+84: { // Doduo
 normalattack: "Pesky Poke",
 normalpower: "15-67",
 normalrange: "Single Enemy",
@@ -1664,9 +1694,11 @@ souldescription: "Repeatedly stabs with her stylish umbrella.",
 soulattribute: "",
 soulrange: "All Enemies",
 skill: "Hanging In",
-skilldescription: "Won't get bad effects from enemy Inspirits."
+skilldescription: "Won't get bad effects from enemy Inspirits.",
+evolvers: [ ],
+evolution: 85
 }, 
-85: { // Rattelle
+85: { // Dodrio
 normalattack: "Stab Storm",
 normalpower: "10-22 x 5",
 normalrange: "Single Enemy",
@@ -1685,7 +1717,7 @@ soulrange: "All Enemies",
 skill: "Hanging In",
 skilldescription: "Won't get bad effects from enemy Inspirits."
 }, 
-86: { // Skelebella
+86: { // Seel
 normalattack: "Pointy Pokes",
 normalpower: "12-26 x 3",
 normalrange: "Single Enemy",
@@ -1702,9 +1734,11 @@ souldescription: "Damages opponents by calling rain to match her inspirits.",
 soulattribute: "Water",
 soulrange: "All Enemies",
 skill: "Hanging In",
-skilldescription: "Won't get bad effects from enemy Inspirits."
+skilldescription: "Won't get bad effects from enemy Inspirits.",
+evolvers: [ ],
+evolution: 87
 }, 
-87: { // Cadin
+87: { // Dewgong
 normalattack: "Slash",
 normalpower: "15-67",
 normalrange: "Single Enemy",
@@ -1725,7 +1759,7 @@ skilldescription: "Lower chance of getting attacked by foes.",
 evolvers: [ ],
 evolution: 88
 }, 
-88: { // Cadable
+88: { // Grimer
 normalattack: "Double Slice",
 normalpower: "18-39 x 2",
 normalrange: "Single Enemy",
@@ -1742,9 +1776,11 @@ souldescription: "Cicada Ninjitsu's ultimate move! Raises allies' Speed.",
 soulattribute: "",
 soulrange: "All Allies",
 skill: "Modest",
-skilldescription: "Lower chance of getting attacked by foes."
+skilldescription: "Lower chance of getting attacked by foes.",
+evolvers: [ ],
+evolution: 89
 }, 
-89: { // Singcada
+89: { // Muk
 normalattack: "Double Slice",
 normalpower: "18-39 x 2",
 normalrange: "Single Enemy",
@@ -1763,7 +1799,7 @@ soulrange: "All Allies",
 skill: "Eyesight A",
 skilldescription: "Never misses attacks."
 }, 
-90: { // Pupsicle
+90: { // Shellder
 normalattack: "",
 normalpower: "",
 normalrange: "Single Enemy",
@@ -1780,9 +1816,11 @@ souldescription: "",
 soulattribute: "",
 soulrange: "",
 skill: "",
-skilldescription: ""
+skilldescription: "",
+evolvers: [ ],
+evolution: 91
 }, 
-91: { // Chilhuahua
+91: { // Cloyster
 normalattack: "Ventilator",
 normalpower: "50-110",
 normalrange: "Single Enemy",
@@ -1801,7 +1839,7 @@ soulrange: "All Enemies",
 skill: "Penetrate",
 skilldescription: "Always deals elemental damage"
 }, 
-92: { // Swelterrier
+92: { // Gastly
 normalattack: "Ventilator",
 normalpower: "50-110",
 normalrange: "Single Enemy",
@@ -1818,9 +1856,11 @@ souldescription: "",
 soulattribute: "",
 soulrange: "",
 skill: "",
-skilldescription: ""
+skilldescription: "",
+evolvers: [ ],
+evolution: 93
 }, 
-93: { // Jibanyan
+93: { // Haunter
 normalattack: "Sharp Claws",
 normalpower: "10-45 x 2",
 normalrange: "Single Enemy",
@@ -1837,9 +1877,11 @@ souldescription: "Punches all opponents with paws trained on moving vehicles.",
 soulattribute: "",
 soulrange: "All Enemies",
 skill: "Adrenaline",
-skilldescription: "Power increases each time it defeats a foe."
+skilldescription: "Power increases each time it defeats a foe.",
+evolvers: [ ],
+evolution: 94
 }, 
-94: { // Thornyan
+94: { // Gengar
 normalattack: "Ventilator",
 normalpower: "50-110",
 normalrange: "Single Enemy",
@@ -1858,7 +1900,7 @@ soulrange: "All Enemies",
 skill: "Spiky Guard",
 skilldescription: "Deals damage back to foe while guarding."
 }, 
-95: { // Baddinyan
+95: { // Onix
 normalattack: "Nasty Kick",
 normalpower: "100",
 normalrange: "Single Enemy",
@@ -1877,7 +1919,7 @@ soulrange: "All Enemies",
 skill: "Pompadour",
 skilldescription: "Will dodge enemy headbutt attacks"
 }, 
-96: { // Walkappa
+96: { // Drowzee
 normalattack: "Punch",
 normalpower: "15-67",
 normalrange: "Single Enemy",
@@ -1898,7 +1940,7 @@ skilldescription: "Will recover a little HP when loafing around",
 evolvers: [ ],
 evolution: 97
 }, 
-97: { // Appak
+97: { // Hypno
 normalattack: "Double Slice",
 normalpower: "18-39 x 2",
 normalrange: "Single Enemy",
@@ -1917,7 +1959,7 @@ soulrange: "All Enemies",
 skill: "Penetrate",
 skilldescription: "Always deals elemental damage"
 }, 
-98: { // Supyo
+98: { // Krabby
 normalattack: "Double Slice",
 normalpower: "18-39 x 2",
 normalrange: "Single Enemy",
@@ -1934,9 +1976,11 @@ souldescription: "",
 soulattribute: "",
 soulrange: "",
 skill: "",
-skilldescription: ""
+skilldescription: "",
+evolvers: [ ],
+evolution: 99
 }, 
-99: { // Komasan
+99: { // Kingler
 normalattack: "Punch",
 normalpower: "15-67",
 normalrange: "Single Enemy",
@@ -1953,11 +1997,10 @@ souldescription: "Summons will-o'-the-wisps to damage enemies.",
 soulattribute: "",
 soulrange: "All Enemies",
 skill: "Alpha",
-skilldescription: "With adjacent Omega Yo-Kai, Spirit increases.",
-evolvers: [ ],
-evolution: 100
+skilldescription: "With adjacent Omega Yo-Kai, Spirit increases."
+
 }, 
-100: { // Komane
+100: { // Voltorb
 normalattack: "Power Punch",
 normalpower: "50-110",
 normalrange: "Single Enemy",
@@ -1974,9 +2017,11 @@ souldescription: "Will-o'-wisps fly from his body to burn his foes.",
 soulattribute: "Fire",
 soulrange: "All Enemies",
 skill: "Alpha",
-skilldescription: "With adjacent Omega Yo-Kai, Spirit increases."
+skilldescription: "With adjacent Omega Yo-Kai, Spirit increases.",
+evolvers: [ ],
+evolution: 101
 }, 
-101: { // Komajiro
+101: { // Electrode
 normalattack: "Punch",
 normalpower: "15-67",
 normalrange: "Single Enemy",
