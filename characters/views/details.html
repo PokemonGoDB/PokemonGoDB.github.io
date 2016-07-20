@@ -125,30 +125,24 @@
                         </table>
                     </div>
 					<div class="panel panel-default">
-                        <table class="table table-striped-column abilities">
+                        <table class="table table-striped-column abilities" ng-if="details.normalattack2">
                             <tbody>
                                 <tr>
-                                    <td>Technique</td>
+                                    <td>Attack Name</td>
                                     <td>
-                                        <strong class="specialName">{{details.special}}</strong>
+                                        <strong class="specialName">{{details.normalattack2}}</strong>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Power</td>
                                     <td>
-                                         <div ng-bind-html="details.specialpower | decorate"></div>
+                                         <div ng-bind-html="details.normalpower2 | decorate"></div>
                                     </td>
                                 </tr>
-                                <tr ng-if="details.cooldown">
-                                    <td>Attribute</td>
+                                <tr ng-if="details.normaldps2">
+                                    <td>DPS</td>
                                     <td>
-                                        <div ng-bind-html="details.specialattribute | decorate"></div>
-                                    </td>
-                                </tr>
-								 <tr>
-                                    <td>Range</td>
-                                    <td>
-                                        <div ng-bind-html="details.specialrange | decorate"></div>
+                                        <div ng-bind-html="details.normaldps2 | decorate"></div>
                                     </td>
                                 </tr>
                             </tbody>
