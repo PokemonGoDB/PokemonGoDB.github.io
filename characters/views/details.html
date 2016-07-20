@@ -15,7 +15,7 @@
 
                     <div ng-if="!unit.incomplete" class="slot huge" decorate-slot big="true" uid="unit.number + 1"></div>
 
-                    <div ng-if="unit.incomplete" class="alert alert-danger">This Yokai's data is still partially missing and will be added soon!</div>
+                    <div ng-if="unit.incomplete" class="alert alert-danger">This Pokemon's data is still partially missing and will be added soon!</div>
 
                     <h3 class="page-header">
                         Details
@@ -23,7 +23,7 @@
                         <input compare type="text" id="compare" class="pull-right" placeholder="Compare with..."></input>
                         <label class="pull-right">
                             <input type="checkbox" ng-model="characterLog[id]" ng-change="checkLog()"></input>
-                            Check to add to Yokai Collection
+                            Check to add to your Pokemon Collection
                         </label>
                     </h3>
 
@@ -31,9 +31,9 @@
                         <table class="table table-striped">
                             <tbody>
                                 <tr>
-                                    <th>Class</th>
-                                    <th>Rank</th>
-                                    <th>Element</th>
+                                    <th>Type 1</th>
+                                    <th>Type 2</th>
+                                    <th>Tier</th>
                                 </tr>
                                 <tr>
                                     <td>{{unit.class}}</td>
