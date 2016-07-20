@@ -152,35 +152,63 @@
 					
 					<!-- Inspirit and Skill (non-comparison) -->
 
-                    <h3 class="page-header">Inspirit and Skill</h3>
+                    <h3 class="page-header">Special Attacks</h3>
 
-                    <div class="panel panel-default">
+					<div class="panel panel-default">
                         <table class="table table-striped-column abilities">
                             <tbody>
                                 <tr>
-                                    <td>Inspirit</td>
+                                    <td>Special Name</td>
                                     <td>
-                                        <strong class="inspirit" ng-if="details.inspirit">{{details.inspirit}}</strong>
-                                        <div ng-bind-html="details.inspiritdescription | decorate"></div>
+                                         <strong class="specialName">{{details.special}}</strong>
                                     </td>
                                 </tr>
-                                <tr ng-if="details.cooldown">
-                                    <td>Range</td>
+                                <tr>
+                                    <td>Power</td>
                                     <td>
-                                        <div ng-bind-html="details.inspiritrange | decorate"></div>
+                                        <div ng-bind-html="details.specialpower | decorate"></div>
+                                    </td>
+                                </tr>
+								<tr>
+                                    <td>Special Type</td>
+                                    <td>
+                                        <div ng-bind-html="details.specialattribute | decorate"></div>
+                                    </td>
+                                </tr>
+                                <tr ng-if="details.specialdps">
+                                    <td>DPS</td>
+                                    <td>
+                                      <div ng-bind-html="details.specialdps | decorate"></div>
                                     </td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-					
 					<div class="panel panel-default">
-                        <table class="table table-striped-column abilities">
+                        <table class="table table-striped-column abilities" ng-if="details.special2">
                             <tbody>
-                                    <td>Skill</td>
+                                 <tr>
+                                    <td>Special Name</td>
                                     <td>
-                                        <strong class="skill" ng-if="details.skill">{{details.skill}}</strong>
-                                        <div ng-bind-html="details.skilldescription | decorate"></div>
+                                         <strong class="specialName">{{details.special2}}</strong>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Power</td>
+                                    <td>
+                                        <div ng-bind-html="details.specialpower2 | decorate"></div>
+                                    </td>
+                                </tr>
+								<tr>
+                                    <td>Special Type</td>
+                                    <td>
+                                        <div ng-bind-html="details.specialattribute2 | decorate"></div>
+                                    </td>
+                                </tr>
+                                <tr ng-if="details.specialdps">
+                                    <td>DPS</td>
+                                    <td>
+                                      <div ng-bind-html="details.specialdps2 | decorate"></div>
                                     </td>
                                 </tr>
                             </tbody>
