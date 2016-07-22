@@ -13,7 +13,7 @@ var utils = { };
 
 var parseUnit = function(element,n) {
     if (element.length === 0) return [ ];
-    if (element[2] && element[2].constructor != Array) element[2] = [ element[2], element[2], element[2] ];
+    if (element[2] && element[2].constructor != Array) element[2] = [ element[2], element[2] ];
     var result = {
         name    : element[0]  , type     : element[1]  ,
         class   : element[2]  , stars    : element[3]  ,
