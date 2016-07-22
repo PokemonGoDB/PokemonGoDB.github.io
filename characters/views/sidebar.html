@@ -1,7 +1,9 @@
+<div class="https://lh3.googleusercontent.com/-B3zzlVYikQg/Vqu2HGXutyI/AAAAAAAACTE/ukQHDm60gm0-UIzlVD-4DoRZ66gxLe8FgCCo/s50/image001.png"></div>
+
 <div id="clear-button" class="filter-header" ng-click="clearFilters()">Clear filters</div>
 
 <div class="filter-container">
-    <span class="filter-header">Rank filters</span>
+    <span class="filter-header">Tier filters</span>
     <span ng-model="filters.type" ng-repeat="(n,type) in [ 'S', 'A', 'B', 'C', 'D', 'E' ]"
         class="filter width-6 type {{type}}" ng-class="{ active: filters.type == type }"
         ng-click="onFilterClick($event,type)">{{type}}</span>
