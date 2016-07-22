@@ -32,14 +32,14 @@ var getTableColumns = function() {
         { title: 'Poke #' },
         { title: 'Name', render: addImage },
         { title: 'Tier' },
-        { title: 'Type 1' },
-		{ title: 'Type 2' },
-        { title: 'Max CP' },
+        { title: 'Type' },
+		{ title: 'Max CP' },
         { title: 'Max HP' },
+        { title: 'Max Attack' },
+        { title: 'Max Defense' },
         { title: 'CP per Level' },
-        { title: 'Max Attack DPS' },
-        { title: 'Max Special DPS' },
-        { title: '' },
+        { title: 'Attack DPS' },
+        { title: 'Special DPS' },
         { title: 'CL', orderable: false }
     ];
     additionalColumns.forEach(function(x) {
