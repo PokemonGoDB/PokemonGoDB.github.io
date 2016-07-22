@@ -1,5 +1,5 @@
 window.units = [
-    [ "Bulbasaur", "D", [ "Grass", "Poison" ], "Poison", 1, "Rice Balls", "Rice Balls", "Nap time!", 838, "?", , , , 1071, 82, "?", 15.385, 21.429,  ],
+    [ "Bulbasaur", "D", [ "Fighter", "Freedom" ], "Poison", 1, "Rice Balls", "Rice Balls", "Nap time!", 838, "?", , , , 1071, 82, "?", 15.385, 21.429,  ],
     [ "Ivysaur", "C", "Grass", "Poison", 1, "Rice Balls", "Rice Balls", "", 39, 4, 2, 2, 4, 392, 156, 158, 120, 151, 3 ],
     [ "Venusaur", "B", "Brave", "Earth", 1, "Rice Balls", "Rice Balls", "Good grief...", 47, 5, 3, 2, 4, 468, 181, 121, 90, 151, 3 ],
     [ "Charmander", "E", "Brave", "Wind", 1, "Juice", "Juice", "What a pain...", 29, 3, 3, 3, 3, 294, 131, 101, 116, 106, 4 ],
