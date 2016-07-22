@@ -13,7 +13,7 @@ var utils = { };
 
 var parseUnit = function(element,n) {
     if (element.length === 0) return [ ];
-    if (element[2] && element[2].constructor != Array) element[2] = [ element[2], element[2] ];
+    if (element[2] && element[2].constructor != Array) element[2] = [ element[2], element[2], element[2] ];
     var result = {
         name    : element[0]  , type     : element[1]  ,
         class   : element[2]  , stars    : element[3]  ,
@@ -23,13 +23,7 @@ var parseUnit = function(element,n) {
         minStrength  : element[10] , minRCV : element[11] ,
         maxHP   : element[13] , maxStrength : element[14] ,
         maxRCV  : element[15] , maxDefense  : element [16] ,
-		maxSpeed : element[17],	minSpeed : element[12] ,
-                Rarity : element[18],
-		growth   : {
-            hp  : element[15] ? element[15][0] : 0,
-            atk : element[15] ? element[15][1] : 0,
-            rcv : element[15] ? element[15][2] : 0
-        },
+		maxSpeed : element[17],
         number: n
     };
     if (element.indexOf(null) != -1) result.incomplete = true;
