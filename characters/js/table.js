@@ -37,8 +37,8 @@ var getTableColumns = function() {
         { title: 'Max CP' },
         { title: 'Max HP' },
         { title: 'CP per Level' },
-        { title: 'Attack DPS' },
-        { title: 'Special DPS' },
+        { title: 'Max Attack DPS' },
+        { title: 'Max Special DPS' },
         { title: '' },
         { title: 'CL', orderable: false }
     ];
