@@ -90,10 +90,14 @@
                                 </tr>
                                 <tr>
                                     <td>Min</td>
-                                    <td ng-if="!compare">{{unit.maxEXP | number}}</td>
-                                    <td ng-if="compare" comparison="positive">{{unit.maxEXP - compare.maxEXP | number}}</td>
-                                    <td ng-if="!compare">{{unit.minHP | number}}</td>
-                                    <td ng-if="compare" comparison="positive">{{unit.minHP - compare.minHP | number}}</td>
+                                    <td ng-if="!compare">{{unit.maxLevel | number}}</td>
+                                    <td ng-if="compare" comparison="positive">{{unit.maxLevel - compare.maxLevel | number}}</td>
+                                    <td ng-if="!compare">{{unit.minRCV | number}}</td>
+                                    <td ng-if="compare" comparison="positive">{{unit.minRCV - compare.minRCV | number}}</td>
+                                    <td ng-if="!compare">{{unit.minAttack | number}}</td>
+                                    <td ng-if="compare" comparison="positive">{{unit.minAttack - compare.minAttack | number}}</td>
+                                    <td ng-if="!compare">{{unit.maxHP | number}}</td>
+                                    <td ng-if="compare" comparison="positive">{{unit.maxHP - compare.maxHP | number}}</td>
                                 </tr>
                             </tbody>
                         </table>
