@@ -128,17 +128,26 @@
                                     <td>
                                         <div ng-bind-html="details.normalpower | decorate"></div>
                                     </td>
+                                    <td>
+                                        <div ng-bind-html="details.normalpower2 | decorate"></div>
+                                    </td>
                                 </tr>
 	                            <tr>
                                     <td>Attack Type</td>
                                     <td>
                                         <div ng-bind-html="details.normalattribute | decorate"></div>
                                     </td>
+                                    <td>
+                                        <div ng-bind-html="details.normalattribute2 | decorate"></div>
+                                    </td>									
                                 </tr>
                                 <tr ng-if="details.normaldps">
                                     <td>DPS</td>
                                     <td>
                                       <div ng-bind-html="details.normaldps | decorate"></div>
+                                    </td>
+<td>
+                                      <div ng-bind-html="details.normaldps2 | decorate"></div>
                                     </td>
                                 </tr>
                             </tbody>
