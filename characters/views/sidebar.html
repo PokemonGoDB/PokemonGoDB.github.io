@@ -15,7 +15,7 @@
 
 <div class="filter-container">
     <span class="filter-header">Pokemon Type filters</span>
-    <span ng-repeat="(n,class) in [ 'Fire', 'Grass', 'Water', 'Normal', 'Fighting', 'Flying', 'Poison', 'Ground', 'Rock', 'Bug', 'Ghost', 'Steel', 'Electric', 'Psychic', 'Ice', 'Dragon', 'Dark', 'Fairy' ]"
+    <span ng-repeat="(n,class) in [ 'Fire', 'Grass', 'Water', 'Normal', 'Fighting', 'Flying', ' Poison', 'Ground', 'Rock', 'Bug', 'Ghost', 'Steel', 'Electric', 'Psychic', 'Ice', 'Dragon', 'Dark', 'Fairy' ]"
         class="filter width-6 class" ng-click="onClassClick($event,class)"
         ng-class="{ active: filters.classes.indexOf(class) > -1 }">{{class}}</span>
 </div>
