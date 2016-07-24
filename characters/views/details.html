@@ -71,15 +71,21 @@
                                     <th>IV's</th>
                                     <th>CP</th>
                                     <th>HP</th>
+									<th>Atk</th>
+									<th>Def</th>
 
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>Max</td>
-                                    <td ng-if="!compare">{{unit.maxHP | number}}</td>
-                                    <td ng-if="compare" comparison="positive">{{unit.maxHP - compare.maxHP | number}}</td>
+                                    <td ng-if="!compare">{{unit.maxLevel | number}}</td>
+                                    <td ng-if="compare" comparison="positive">{{unit.maxLevel - compare.maxLevel | number}}</td>
                                     <td ng-if="!compare">{{unit.maxStrength | number}}</td>
+                                    <td ng-if="compare" comparison="positive">{{unit.maxStrength - compare.maxStrength | number}}</td>
+									<td ng-if="!compare">{{unit.maxStrength | number}}</td>
+                                    <td ng-if="compare" comparison="positive">{{unit.maxStrength - compare.maxStrength | number}}</td>
+									<td ng-if="!compare">{{unit.maxStrength | number}}</td>
                                     <td ng-if="compare" comparison="positive">{{unit.maxStrength - compare.maxStrength | number}}</td>
                                 </tr>
                                 <tr>
