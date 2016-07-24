@@ -23,7 +23,7 @@ var parseUnit = function(element,n) {
         minStrength  : element[10] , minRCV : element[11] ,
         maxHP   : element[13] , maxStrength : element[14] ,
         maxRCV  : element[15] , maxDefense  : element [16] ,
-		maxSpeed : element[17],
+		maxSpeed : element[17], maxDef		: element [12] ,
         number: n
     };
     if (element.indexOf(null) != -1) result.incomplete = true;
