@@ -37,7 +37,9 @@
                                 </tr>
                                 <tr>
 <!--									<td ngif="angular.isArray(unit.class)">{{unit.class}}</td> -->
-                                    <td>{{unit.class[0]}}</td>
+                                    <td ng-if="sizeOf(unit.class[0]) > 1">{{unit.class[0]}}</td>
+									<td ng-if="sizeOf(unit.class[0]) < 2">{{unit.class}}</td>
+									<td>{{unit.class[0]}}</td>
                                     <td>{{unit.class[1]}}</td>
                                     <td>{{unit.type}}</td>
                                 </tr>
