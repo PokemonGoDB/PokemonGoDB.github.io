@@ -195,7 +195,7 @@ angular.module('optc') .run(function($rootScope) {
             x.minStrength,
             x.slots,
             x.cost,
-            x.combo,
+            '',
             '',
             x.number
         ];
