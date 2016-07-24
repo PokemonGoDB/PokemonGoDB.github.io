@@ -196,7 +196,7 @@ angular.module('optc') .run(function($rootScope) {
             '',
             x.cost,
             x.combo,
-            '',
+            x.combo,
             x.number
         ];
 //        additionalColumns.forEach(function(c,n) {
