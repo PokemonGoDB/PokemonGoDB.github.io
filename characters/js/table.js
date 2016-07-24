@@ -37,10 +37,10 @@ var getTableColumns = function() {
         { title: 'Max HP' },
         { title: 'Max Attack' },
         { title: 'Max Defense' },
-        { title: 'CP per Level' },
         { title: 'Attack DPS' },
         { title: 'Special DPS' },
-        { title: 'CL', orderable: false }
+        { title: '' },
+        { title: '', orderable: false }
     ];
     additionalColumns.forEach(function(x) {
         var title = x
@@ -193,10 +193,10 @@ angular.module('optc') .run(function($rootScope) {
             x.maxEXP,
             x.minHP,
             x.minStrength,
-            '',
             x.cost,
             x.combo,
-            x.combo,
+            '',
+            '',
             x.number
         ];
 //        additionalColumns.forEach(function(c,n) {
