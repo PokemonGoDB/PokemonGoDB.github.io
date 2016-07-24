@@ -325,7 +325,7 @@ directives.addLinks = function($stateParams) {
             var ul = $('<ul></ul>');
             if (!isNaN(gw[id-1])) {
                 ul.append($('<li><a href="http://www.TeamPidgey.com" target="_blank">' +
-                        'Back to Team Pidgey.com</a></li>'));
+                        'Back to TeamPidgey.com</a></li>'));
             }
             if (!incomplete) {
                 ul.append($('<li><a href="http://www.pokemon.com/us/pokemon-video-games/pokemon-go/" target="_blank">' +
