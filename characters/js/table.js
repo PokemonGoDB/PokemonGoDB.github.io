@@ -189,7 +189,7 @@ angular.module('optc') .run(function($rootScope) {
             x.name,
             x.type,
             x.class,
-            x.stars,
+            x.minHP,
             x.maxHP,
             x.maxStrength,
             x.maxRCV,
