@@ -114,6 +114,7 @@ input[type="text"] {
 .D { background: deepskyblue; }
 .E { background: dimgray; }
 
+.cell-SSS { font-weight: bold; color: mediumblue; font-size: large }
 .cell-S { font-weight: bold; color: mediumblue; font-size: large }
 .cell-A { font-weight: bold; color: orange; font-size: large }
 .cell-B { font-weight: bold; color: red; font-size: large;  }
