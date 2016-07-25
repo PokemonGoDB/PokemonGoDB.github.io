@@ -8,7 +8,7 @@
 
 <div class="filter-container">
     <span class="filter-header">Tier filters</span>
-    <span ng-repeat="(n,type) in [ 'S', 'A', 'B', 'C', 'D', 'F' ]"
+    <span ng-model="filters.type" ng-repeat="(n,type) in [ 'Test', 'A', 'B', 'C', 'D', 'F' ]"
         class="filter width-6 type {{type}}" ng-class="{ active: filters.type == type }"
         ng-click="onFilterClick($event,type)">{{type}}</span>
 </div>
