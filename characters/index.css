@@ -107,12 +107,14 @@ input[type="text"] {
     height: 73px;
 }
 
+/*
 .S { background: mediumblue; color: black; }
 .A { background: orange; }
 .B { background: red; }
 .C { background: limegreen; }
 .D { background: deepskyblue; }
 .E { background: dimgray; }
+*/
 
 .cell-SSS { font-weight: bold; color: mediumblue; font-size: large }
 .cell-S { font-weight: bold; color: mediumblue; font-size: large }
