@@ -7,18 +7,17 @@
 <div id="clear-button" class="filter-header" ng-click="clearFilters()">Clear filters</div>
 
 <div class="filter-container">
-    <span class="filter-header">Tier filters</span>
-    <span ng-model="filters.type" ng-repeat="(n,type) in [ 'S', 'A', 'B', 'C', 'D', 'F' ]"
-        class="filter width-6 class {{type}}" ng-class="{ active: filters.type == type }"
-        ng-click="onFilterClick($event,type)">{{type}}</span>
-</div>
-
-
-<div class="filter-container">
     <span class="filter-header">Pokemon Type filters</span>
     <span ng-repeat="(n,class) in [ ' Fire', ' Grass', ' Water', ' Normal', ' Fighting', ' Flying', ' Poison', ' Ground', ' Rock', ' Bug', ' Ghost', ' Steel', ' Electric', ' Psychic', ' Ice', ' Dragon', ' Dark', ' Fairy' ]"
         class="filter width-6 class" ng-click="onClassClick($event,class)"
         ng-class="{ active: filters.classes.indexOf(class) > -1 }">{{class}}</span>
+</div>
+
+<div class="filter-container">
+    <span class="filter-header">Tier filters</span>
+    <span ng-model="filters.type" ng-repeat="(n,type) in [ 'S', 'A', 'B', 'C', 'D', 'F' ]"
+        class="filter width-6 class {{type}}" ng-class="{ active: filters.type == type }"
+        ng-click="onFilterClick($event,type)">{{type}}</span>
 </div>
 
 <!-- <div class="filter-container">
