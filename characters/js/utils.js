@@ -169,6 +169,26 @@ CharUtils.searchSameSpecials = function(id) {
     return result;
 };
 
+CharUtils.searchSameSpecials2 = function(id) {
+    var result = [ ];
+    for (var key in details) {
+        if (key == id || !details[key].special2) continue; 
+        if (details[key].specialName == details[id].specialName && details[key].special2 == details[id].special2)
+            result.push(parseInt(key, 10));
+    }
+    return result;
+};
+
+CharUtils.searchSameSpecials3 = function(id) {
+    var result = [ ];
+    for (var key in details) {
+        if (key == id || !details[key].special3) continue; 
+        if (details[key].specialName == details[id].specialName && details[key].special3 == details[id].special3)
+            result.push(parseInt(key, 10));
+    }
+    return result;
+};
+
 CharUtils.getDayOfWeek = function(japan, ignore) {
     var now = new Date(), utc = new Date(now.getTime() + now.getTimezoneOffset() * 60000), today;
     if (!japan) today = new Date(utc.getTime() - 8 * 3600000);
