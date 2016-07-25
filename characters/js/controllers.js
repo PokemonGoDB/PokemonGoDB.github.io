@@ -109,6 +109,8 @@ app.controller('DetailsCtrl',function($scope, $rootScope, $state, $stateParams, 
     $scope.tandems = CharUtils.searchTandems(id);
     $scope.manuals = CharUtils.searchDropLocations(-id);
     $scope.sameSpecials = CharUtils.searchSameSpecials(id);
+	$scope.sameSpecials2 = CharUtils.searchSameSpecials2(id);
+    $scope.sameSpecials3 = CharUtils.searchSameSpecials3(id);
     $scope.collapsed = { to: true, from: true, used: true, drops: true, manuals: true }; 
     // events/functions
     $scope.getEvos = CharUtils.getEvolversOfEvolution;
