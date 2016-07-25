@@ -164,6 +164,8 @@ CharUtils.searchSameSpecials = function(id) {
     for (var key in details) {
         if (key == id || !details[key].special) continue; 
         if (details[key].specialName == details[id].specialName && details[key].special == details[id].special)
+		if (details[key].specialName == details[id].specialName && details[key].special2 == details[id].special)
+        if (details[key].specialName == details[id].specialName && details[key].special3 == details[id].special)
             result.push(parseInt(key, 10));
     }
     return result;
