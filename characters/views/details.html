@@ -215,31 +215,55 @@
                             </tbody>
                         </table>
                     </div>
-					<div class="panel panel-default" ng-if="details.special2">
-                        <table class="table table-striped-column abilities" ng-if="details.special2">
+					<div ng-if="details.special4" class="panel panel-default">
+                        <table class="table table-striped">
                             <tbody>
-                                 <tr>
+                                <tr>
                                     <td>Special Name</td>
                                     <td>
-                                         <strong class="specialName">{{details.special2}}</strong>
+                                         <strong class="specialName">{{details.special4}}</strong>
+                                    </td>
+                                    <td ng-if="details.special5">
+                                         <strong class="specialName">{{details.special5}}</strong>
+                                    </td>
+                                    <td ng-if="details.special6">
+                                         <strong class="specialName">{{details.special6}}</strong>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Power</td>
                                     <td>
-                                        <div ng-bind-html="details.specialpower2 | decorate"></div>
+                                        <div ng-bind-html="details.specialpower4 | decorate"></div>
+                                    </td>
+                                    <td ng-if="details.special5">
+                                        <div ng-bind-html="details.specialpower5 | decorate"></div>
+                                    </td>
+                                    <td ng-if="details.special6">
+                                        <div ng-bind-html="details.specialpower6 | decorate"></div>
                                     </td>
                                 </tr>
 								<tr>
                                     <td>Special Type</td>
                                     <td>
-                                        <div ng-bind-html="details.specialattribute2 | decorate"></div>
+                                        <div ng-bind-html="details.specialattribute4 | decorate"></div>
+                                    </td>
+                                    <td ng-if="details.special5">
+                                        <div ng-bind-html="details.specialattribute5 | decorate"></div>
+                                    </td>
+                                    <td ng-if="details.special6">
+                                        <div ng-bind-html="details.specialattribute6 | decorate"></div>
                                     </td>
                                 </tr>
-                                <tr ng-if="details.specialdps2">
+                                <tr ng-if="details.specialdps">
                                     <td>DPS</td>
                                     <td>
-                                      <div ng-bind-html="details.specialdps2 | decorate"></div>
+                                      <div ng-bind-html="details.specialdps4 | decorate"></div>
+                                    </td>
+                                    <td ng-if="details.special5">
+                                      <div ng-bind-html="details.specialdps5 | decorate"></div>
+                                    </td>
+                                    <td ng-if="details.special6">
+                                      <div ng-bind-html="details.specialdps6 | decorate"></div>
                                     </td>
                                 </tr>
                             </tbody>
@@ -456,7 +480,7 @@
                         </table>
                     </div>
 
-                    <!-- Abilities (compared unit) -->
+                    <!-- Abilities (compared unit)
 
                     <h3 class="page-header" ng-if="compare">Abilities (compared unit)</h3>
 
@@ -487,7 +511,8 @@
                             </tbody>
                         </table>
                     </div>
-
+ -->
+ 
                     <!-- Evolutions -->
 
                     <h3 class="page-header" ng-if="details.evolution">Evolutions</h3>
