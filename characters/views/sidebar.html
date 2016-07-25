@@ -18,7 +18,7 @@
 <div class="filter-container">
     <span class="filter-header">Tier filters</span>
     <span ng-repeat="(n,type) in [ 'S', 'A', 'B', 'C', 'D', 'F' ]"
-        class="filter width-6 type" ng-click="onClassClick($event,type)"
+        class="filter width-6 class" ng-click="onClassClick($event,type)"
         ng-class="{ active: filters.classes.indexOf(type) > -1 }">{{type}}</span>
 </div>
 
