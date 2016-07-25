@@ -11,7 +11,7 @@ window.drops = {
 		{
             "name": "Wetlands",
             "thumb": 28,
-            "Areas classified as Wetlands have higher counts of Water Pokemon": [ 7, 8, 9, 54, 55, 60, 61, 62, 72, 73, 79, 80, 86, 87, 90, 91, 98, 99, 116, 117, 118, 119, 120, 121, 129, 130, 131, 134, 138, 139, 140, 141 ],
+            "Areas classified as Wetlands may have higher counts of Water Pokemon": [ 7, 8, 9, 54, 55, 60, 61, 62, 72, 73, 79, 80, 86, 87, 90, 91, 98, 99, 116, 117, 118, 119, 120, 121, 129, 130, 131, 134, 138, 139, 140, 141 ],
 		},
 		
 		{
@@ -21,40 +21,40 @@ window.drops = {
 		},
 		
 		{
-            "name": "",
+            "name": "Residential",
             "thumb": 28,
-            "": [  ],
+            "Neighborhoods have a slightly higher Fire type population": [ 4, 5, 6, 37, 38, 58, 59, 77, 78, 126, 136 ],
 		},
 		{
-            "name": "",
+            "name": "Cities",
             "thumb": 28,
-            "": [  ],
-		},
-		
-		{
-            "name": "",
-            "thumb": 28,
-            "": [  ],
+            "Downtown areas have a slightly higher Fire type population": [ 4, 5, 6, 37, 38, 58, 59, 77, 78, 126, 136 ],
 		},
 		
 		{
-            "name": "",
+            "name": "Dry Areas",
             "thumb": 28,
-            "": [  ],
+            "Includes Farm Land and other Dry areas": [ 4, 5, 6, 37, 38, 58, 59, 77, 78, 126, 136 ],
+		},
+		
+		{
+            "name": "Parks",
+            "thumb": 28,
+            "Parks are a great location to find Grass types": [ 1, 2, 3, 43, 44, 45, 46, 47, 69, 70, 71, 102, 103, 114 ],
 		},
 		
 		
 		{
-            "name": "",
+            "name": "Golf Courses",
             "thumb": 28,
-            "": [  ],
+            "Or any area with large plots of grass": [ 1, 2, 3, 43, 44, 45, 46, 47, 69, 70, 71, 102, 103, 114 ],
 		},
 		
 		
 			{
-            "name": "",
+            "name": "Nature",
             "thumb": 28,
-            "": [  ],
+            "Hiking Trails and other reserves have higher Grass type encounters": [ 1, 2, 3, 43, 44, 45, 46, 47, 69, 70, 71, 102, 103, 114 ],
 		},
 		
 				{
