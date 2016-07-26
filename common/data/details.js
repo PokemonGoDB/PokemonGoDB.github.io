@@ -235,8 +235,6 @@ specialdps9: "",
 specialcharge9: "",
 specialenergy9: "",
 specialcrit9: "",
-evolvers: [ ],
-evolution: 
 },
 
 };
