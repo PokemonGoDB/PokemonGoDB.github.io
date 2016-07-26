@@ -280,7 +280,7 @@ directives.addTags = function($stateParams, $rootScope) {
             var id = $stateParams.id, data = details[id];
             // flags
             var flags = data.flags || { };
-            element.append($('<span class="tag flag">' + (flags.YW1 ? 'Yokai Watch 2 only' : 'Yokai Watch 1') + '</div>'));
+            element.append($('<span class="tag flag">' + (flags.YW1 ? 'Yokai Watch 2 only' : 'Gen I') + '</div>'));
             element.append($('<span class="tag flag">' +
                         (CharUtils.isFarmable(id) ? 'Farmable' : 'Non-farmable') + '</div>'));
             if (flags.rr) element.append($('<span class="tag flag">Rare Recruit only</div>'));
