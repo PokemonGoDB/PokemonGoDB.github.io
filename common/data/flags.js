@@ -1,5 +1,5 @@
 window.flags = {
-	1: { global: 1 },
+	1: { global: 1, promo: 1 },
 	2: { global: 1, rr: 1 },
 	3: { global: 1, rr: 1 },
 	4: { global: 1, rr: 1 },
